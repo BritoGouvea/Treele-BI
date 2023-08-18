@@ -48,13 +48,20 @@ for insumo in insumos:
 import json
 from datetime import datetime
 
-date_format = '%d-%m-%Y'
+date_format = '%d/%m/%Y'
 
-insumos = json.load(open("RequestsRelations.json"))
+insumos = json.load(open("../assets/RequestsRelations.json"))
 
 for insumo in insumos:
-    insumo['Data'] = datetime.strptime(insumo['Data'], date_format)
-    insumo['Data da autorização'] = datetime.strptime(insumo['Data da autorização'], date_format)
-
+    try:
+        insumo['Data'] = datetime.strptime(insumo['Data'], date_format).isoformat()
+        insumo['Data da autorização'] = datetime.strptime(insumo['Data da autorização'], date_format).isoformat()
+    except:
+        pass
+    try:
+        insumo['Solicitação'] = int(insumo['Solicitação'])
+    except:
+        pass
+    
 with open("RequestsRelations.json", "w") as outfile:
     json.dump(insumos, outfile, ensure_ascii=False, indent=4)

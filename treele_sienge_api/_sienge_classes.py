@@ -54,3 +54,14 @@ class PurchaseOrder:
         self.modifiedAt = modifiedAt
         self.authorizedAt = authorizedAt
         self.sentDate = sentDate
+
+from datetime import datetime
+
+class SolicitaçãoDeCompras:
+
+    def __init__(self, id, obra, data, status, itens) -> None:
+        self.id = id
+        self.obra = obra
+        self.data = datetime.fromisoformat(data)
+        self.status = status
+        self.itens = itens

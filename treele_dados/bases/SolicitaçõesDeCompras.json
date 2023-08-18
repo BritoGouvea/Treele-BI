@@ -1,0 +1,7191 @@
+{
+    "32": {
+        "id": 32,
+        "obra": 4,
+        "data": "2020-06-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "33": {
+        "id": 33,
+        "obra": 4,
+        "data": "2020-06-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "37": {
+        "id": 37,
+        "obra": 5,
+        "data": "2020-06-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "38": {
+        "id": 38,
+        "obra": 5,
+        "data": "2020-06-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "43": {
+        "id": 43,
+        "obra": 5,
+        "data": "2020-06-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "44": {
+        "id": 44,
+        "obra": 3,
+        "data": "2020-06-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "46": {
+        "id": 46,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "47": {
+        "id": 47,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "49": {
+        "id": 49,
+        "obra": 3,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "50": {
+        "id": 50,
+        "obra": 3,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "51": {
+        "id": 51,
+        "obra": 3,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "52": {
+        "id": 52,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "53": {
+        "id": 53,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "54": {
+        "id": 54,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "55": {
+        "id": 55,
+        "obra": 5,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "58": {
+        "id": 58,
+        "obra": 3,
+        "data": "2020-06-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JOICE"
+    },
+    "63": {
+        "id": 63,
+        "obra": 4,
+        "data": "2020-06-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "65": {
+        "id": 65,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "67": {
+        "id": 67,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "70": {
+        "id": 70,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "71": {
+        "id": 71,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "73": {
+        "id": 73,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "74": {
+        "id": 74,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "76": {
+        "id": 76,
+        "obra": 4,
+        "data": "2020-06-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "85": {
+        "id": 85,
+        "obra": 4,
+        "data": "2020-06-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "86": {
+        "id": 86,
+        "obra": 4,
+        "data": "2020-06-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "87": {
+        "id": 87,
+        "obra": 4,
+        "data": "2020-06-24",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "91": {
+        "id": 91,
+        "obra": 3,
+        "data": "2020-06-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "92": {
+        "id": 92,
+        "obra": 3,
+        "data": "2020-06-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "93": {
+        "id": 93,
+        "obra": 4,
+        "data": "2020-06-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "94": {
+        "id": 94,
+        "obra": 4,
+        "data": "2020-06-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "96": {
+        "id": 96,
+        "obra": 3,
+        "data": "2020-06-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "99": {
+        "id": 99,
+        "obra": 3,
+        "data": "2020-07-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "100": {
+        "id": 100,
+        "obra": 4,
+        "data": "2020-07-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "101": {
+        "id": 101,
+        "obra": 3,
+        "data": "2020-07-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "102": {
+        "id": 102,
+        "obra": 4,
+        "data": "2020-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "103": {
+        "id": 103,
+        "obra": 4,
+        "data": "2020-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "105": {
+        "id": 105,
+        "obra": 3,
+        "data": "2020-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "106": {
+        "id": 106,
+        "obra": 3,
+        "data": "2020-07-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "108": {
+        "id": 108,
+        "obra": 4,
+        "data": "2020-07-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "109": {
+        "id": 109,
+        "obra": 4,
+        "data": "2020-07-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "110": {
+        "id": 110,
+        "obra": 3,
+        "data": "2020-07-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "112": {
+        "id": 112,
+        "obra": 4,
+        "data": "2020-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "113": {
+        "id": 113,
+        "obra": 4,
+        "data": "2020-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "115": {
+        "id": 115,
+        "obra": 4,
+        "data": "2020-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "116": {
+        "id": 116,
+        "obra": 4,
+        "data": "2020-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "117": {
+        "id": 117,
+        "obra": 4,
+        "data": "2020-07-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "118": {
+        "id": 118,
+        "obra": 4,
+        "data": "2020-07-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "119": {
+        "id": 119,
+        "obra": 4,
+        "data": "2020-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "120": {
+        "id": 120,
+        "obra": 3,
+        "data": "2020-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "121": {
+        "id": 121,
+        "obra": 3,
+        "data": "2020-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "123": {
+        "id": 123,
+        "obra": 4,
+        "data": "2020-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "124": {
+        "id": 124,
+        "obra": 4,
+        "data": "2020-07-21",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "125": {
+        "id": 125,
+        "obra": 4,
+        "data": "2020-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "127": {
+        "id": 127,
+        "obra": 4,
+        "data": "2020-07-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "128": {
+        "id": 128,
+        "obra": 4,
+        "data": "2020-07-23",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "130": {
+        "id": 130,
+        "obra": 4,
+        "data": "2020-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "131": {
+        "id": 131,
+        "obra": 3,
+        "data": "2020-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "133": {
+        "id": 133,
+        "obra": 2,
+        "data": "2020-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "136": {
+        "id": 136,
+        "obra": 4,
+        "data": "2020-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "137": {
+        "id": 137,
+        "obra": 4,
+        "data": "2020-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "138": {
+        "id": 138,
+        "obra": 4,
+        "data": "2020-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "142": {
+        "id": 142,
+        "obra": 4,
+        "data": "2020-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "143": {
+        "id": 143,
+        "obra": 4,
+        "data": "2020-08-03",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "146": {
+        "id": 146,
+        "obra": 2,
+        "data": "2020-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "147": {
+        "id": 147,
+        "obra": 3,
+        "data": "2020-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "150": {
+        "id": 150,
+        "obra": 4,
+        "data": "2020-08-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "167": {
+        "id": 167,
+        "obra": 5,
+        "data": "2020-08-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "168": {
+        "id": 168,
+        "obra": 4,
+        "data": "2020-08-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "169": {
+        "id": 169,
+        "obra": 5,
+        "data": "2020-08-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "170": {
+        "id": 170,
+        "obra": 3,
+        "data": "2020-08-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "177": {
+        "id": 177,
+        "obra": 4,
+        "data": "2020-08-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "178": {
+        "id": 178,
+        "obra": 4,
+        "data": "2020-08-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "179": {
+        "id": 179,
+        "obra": 4,
+        "data": "2020-08-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "181": {
+        "id": 181,
+        "obra": 4,
+        "data": "2020-08-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "182": {
+        "id": 182,
+        "obra": 3,
+        "data": "2020-08-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "187": {
+        "id": 187,
+        "obra": 4,
+        "data": "2020-08-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "188": {
+        "id": 188,
+        "obra": 4,
+        "data": "2020-08-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "190": {
+        "id": 190,
+        "obra": 4,
+        "data": "2020-08-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "194": {
+        "id": 194,
+        "obra": 3,
+        "data": "2020-08-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "195": {
+        "id": 195,
+        "obra": 4,
+        "data": "2020-08-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "196": {
+        "id": 196,
+        "obra": 4,
+        "data": "2020-08-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "199": {
+        "id": 199,
+        "obra": 5,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "204": {
+        "id": 204,
+        "obra": 4,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "205": {
+        "id": 205,
+        "obra": 4,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "207": {
+        "id": 207,
+        "obra": 4,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "208": {
+        "id": 208,
+        "obra": 3,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "209": {
+        "id": 209,
+        "obra": 3,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "210": {
+        "id": 210,
+        "obra": 4,
+        "data": "2020-08-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "212": {
+        "id": 212,
+        "obra": 2,
+        "data": "2020-08-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "213": {
+        "id": 213,
+        "obra": 1,
+        "data": "2020-08-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "215": {
+        "id": 215,
+        "obra": 1,
+        "data": "2020-08-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "217": {
+        "id": 217,
+        "obra": 4,
+        "data": "2020-08-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "218": {
+        "id": 218,
+        "obra": 4,
+        "data": "2020-08-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "219": {
+        "id": 219,
+        "obra": 3,
+        "data": "2020-08-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "221": {
+        "id": 221,
+        "obra": 1,
+        "data": "2020-08-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "222": {
+        "id": 222,
+        "obra": 1,
+        "data": "2020-08-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "223": {
+        "id": 223,
+        "obra": 3,
+        "data": "2020-09-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "225": {
+        "id": 225,
+        "obra": 3,
+        "data": "2020-09-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "226": {
+        "id": 226,
+        "obra": 1,
+        "data": "2020-09-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "228": {
+        "id": 228,
+        "obra": 4,
+        "data": "2020-09-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "229": {
+        "id": 229,
+        "obra": 4,
+        "data": "2020-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "230": {
+        "id": 230,
+        "obra": 4,
+        "data": "2020-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "231": {
+        "id": 231,
+        "obra": 4,
+        "data": "2020-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "233": {
+        "id": 233,
+        "obra": 4,
+        "data": "2020-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "234": {
+        "id": 234,
+        "obra": 4,
+        "data": "2020-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "237": {
+        "id": 237,
+        "obra": 4,
+        "data": "2020-09-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "239": {
+        "id": 239,
+        "obra": 3,
+        "data": "2020-09-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "242": {
+        "id": 242,
+        "obra": 4,
+        "data": "2020-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "243": {
+        "id": 243,
+        "obra": 4,
+        "data": "2020-09-21",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "244": {
+        "id": 244,
+        "obra": 4,
+        "data": "2020-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "245": {
+        "id": 245,
+        "obra": 4,
+        "data": "2020-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "249": {
+        "id": 249,
+        "obra": 4,
+        "data": "2020-09-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "250": {
+        "id": 250,
+        "obra": 4,
+        "data": "2020-09-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "251": {
+        "id": 251,
+        "obra": 4,
+        "data": "2020-09-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "252": {
+        "id": 252,
+        "obra": 4,
+        "data": "2020-09-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "253": {
+        "id": 253,
+        "obra": 4,
+        "data": "2020-09-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "254": {
+        "id": 254,
+        "obra": 4,
+        "data": "2020-09-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "255": {
+        "id": 255,
+        "obra": 4,
+        "data": "2020-09-29",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "260": {
+        "id": 260,
+        "obra": 8,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "261": {
+        "id": 261,
+        "obra": 6,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "267": {
+        "id": 267,
+        "obra": 3,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "268": {
+        "id": 268,
+        "obra": 4,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "269": {
+        "id": 269,
+        "obra": 4,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "270": {
+        "id": 270,
+        "obra": 4,
+        "data": "2020-09-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "271": {
+        "id": 271,
+        "obra": 4,
+        "data": "2020-10-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "274": {
+        "id": 274,
+        "obra": 5,
+        "data": "2020-10-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "281": {
+        "id": 281,
+        "obra": 4,
+        "data": "2020-10-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "283": {
+        "id": 283,
+        "obra": 4,
+        "data": "2020-10-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "286": {
+        "id": 286,
+        "obra": 4,
+        "data": "2020-10-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "287": {
+        "id": 287,
+        "obra": 4,
+        "data": "2020-10-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "288": {
+        "id": 288,
+        "obra": 4,
+        "data": "2020-10-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "290": {
+        "id": 290,
+        "obra": 4,
+        "data": "2020-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "291": {
+        "id": 291,
+        "obra": 4,
+        "data": "2020-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "292": {
+        "id": 292,
+        "obra": 4,
+        "data": "2020-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "294": {
+        "id": 294,
+        "obra": 4,
+        "data": "2020-10-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "296": {
+        "id": 296,
+        "obra": 1,
+        "data": "2020-10-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "298": {
+        "id": 298,
+        "obra": 4,
+        "data": "2020-10-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "303": {
+        "id": 303,
+        "obra": 4,
+        "data": "2020-10-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "304": {
+        "id": 304,
+        "obra": 4,
+        "data": "2020-10-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "305": {
+        "id": 305,
+        "obra": 5,
+        "data": "2020-10-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "306": {
+        "id": 306,
+        "obra": 4,
+        "data": "2020-10-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "311": {
+        "id": 311,
+        "obra": 5,
+        "data": "2020-10-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "313": {
+        "id": 313,
+        "obra": 4,
+        "data": "2020-10-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "315": {
+        "id": 315,
+        "obra": 4,
+        "data": "2020-10-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "316": {
+        "id": 316,
+        "obra": 4,
+        "data": "2020-10-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "317": {
+        "id": 317,
+        "obra": 4,
+        "data": "2020-10-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "321": {
+        "id": 321,
+        "obra": 4,
+        "data": "2020-10-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "322": {
+        "id": 322,
+        "obra": 5,
+        "data": "2020-10-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "325": {
+        "id": 325,
+        "obra": 4,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "326": {
+        "id": 326,
+        "obra": 1,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "327": {
+        "id": 327,
+        "obra": 4,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "328": {
+        "id": 328,
+        "obra": 7,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "329": {
+        "id": 329,
+        "obra": 4,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "331": {
+        "id": 331,
+        "obra": 4,
+        "data": "2020-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "334": {
+        "id": 334,
+        "obra": 4,
+        "data": "2020-10-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "336": {
+        "id": 336,
+        "obra": 4,
+        "data": "2020-10-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "337": {
+        "id": 337,
+        "obra": 9,
+        "data": "2020-10-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "339": {
+        "id": 339,
+        "obra": 7,
+        "data": "2020-10-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "341": {
+        "id": 341,
+        "obra": 5,
+        "data": "2020-10-27",
+        "status": "CANCELED",
+        "criado_por": "MARKETING01"
+    },
+    "342": {
+        "id": 342,
+        "obra": 7,
+        "data": "2020-10-27",
+        "status": "CANCELED",
+        "criado_por": "LUIGI"
+    },
+    "345": {
+        "id": 345,
+        "obra": 4,
+        "data": "2020-10-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "350": {
+        "id": 350,
+        "obra": 5,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "351": {
+        "id": 351,
+        "obra": 3,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "352": {
+        "id": 352,
+        "obra": 3,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "353": {
+        "id": 353,
+        "obra": 3,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "354": {
+        "id": 354,
+        "obra": 4,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "356": {
+        "id": 356,
+        "obra": 4,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "357": {
+        "id": 357,
+        "obra": 4,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "358": {
+        "id": 358,
+        "obra": 3,
+        "data": "2020-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "361": {
+        "id": 361,
+        "obra": 4,
+        "data": "2020-11-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "362": {
+        "id": 362,
+        "obra": 4,
+        "data": "2020-11-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "364": {
+        "id": 364,
+        "obra": 4,
+        "data": "2020-11-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "365": {
+        "id": 365,
+        "obra": 4,
+        "data": "2020-11-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "366": {
+        "id": 366,
+        "obra": 4,
+        "data": "2020-11-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "367": {
+        "id": 367,
+        "obra": 4,
+        "data": "2020-11-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "369": {
+        "id": 369,
+        "obra": 4,
+        "data": "2020-11-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "371": {
+        "id": 371,
+        "obra": 4,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "372": {
+        "id": 372,
+        "obra": 5,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "373": {
+        "id": 373,
+        "obra": 1,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "374": {
+        "id": 374,
+        "obra": 7,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "375": {
+        "id": 375,
+        "obra": 4,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "376": {
+        "id": 376,
+        "obra": 4,
+        "data": "2020-11-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "377": {
+        "id": 377,
+        "obra": 4,
+        "data": "2020-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "385": {
+        "id": 385,
+        "obra": 3,
+        "data": "2020-11-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "386": {
+        "id": 386,
+        "obra": 4,
+        "data": "2020-11-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "389": {
+        "id": 389,
+        "obra": 8,
+        "data": "2020-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "390": {
+        "id": 390,
+        "obra": 4,
+        "data": "2020-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "391": {
+        "id": 391,
+        "obra": 4,
+        "data": "2020-11-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "392": {
+        "id": 392,
+        "obra": 4,
+        "data": "2020-11-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "394": {
+        "id": 394,
+        "obra": 5,
+        "data": "2020-11-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "398": {
+        "id": 398,
+        "obra": 4,
+        "data": "2020-11-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "400": {
+        "id": 400,
+        "obra": 4,
+        "data": "2020-11-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "401": {
+        "id": 401,
+        "obra": 4,
+        "data": "2020-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "402": {
+        "id": 402,
+        "obra": 1,
+        "data": "2020-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "403": {
+        "id": 403,
+        "obra": 1,
+        "data": "2020-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "404": {
+        "id": 404,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "405": {
+        "id": 405,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "406": {
+        "id": 406,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "407": {
+        "id": 407,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "408": {
+        "id": 408,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "409": {
+        "id": 409,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "410": {
+        "id": 410,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "411": {
+        "id": 411,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "412": {
+        "id": 412,
+        "obra": 4,
+        "data": "2020-11-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "413": {
+        "id": 413,
+        "obra": 4,
+        "data": "2020-11-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "414": {
+        "id": 414,
+        "obra": 4,
+        "data": "2020-11-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "415": {
+        "id": 415,
+        "obra": 1,
+        "data": "2020-11-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "418": {
+        "id": 418,
+        "obra": 5,
+        "data": "2020-12-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "419": {
+        "id": 419,
+        "obra": 4,
+        "data": "2020-12-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "420": {
+        "id": 420,
+        "obra": 1,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "421": {
+        "id": 421,
+        "obra": 5,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "422": {
+        "id": 422,
+        "obra": 1,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "423": {
+        "id": 423,
+        "obra": 5,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "425": {
+        "id": 425,
+        "obra": 8,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "426": {
+        "id": 426,
+        "obra": 6,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "427": {
+        "id": 427,
+        "obra": 9,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "428": {
+        "id": 428,
+        "obra": 8,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "429": {
+        "id": 429,
+        "obra": 6,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "430": {
+        "id": 430,
+        "obra": 9,
+        "data": "2020-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "431": {
+        "id": 431,
+        "obra": 4,
+        "data": "2020-12-04",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "432": {
+        "id": 432,
+        "obra": 4,
+        "data": "2020-12-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "433": {
+        "id": 433,
+        "obra": 4,
+        "data": "2020-12-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "434": {
+        "id": 434,
+        "obra": 4,
+        "data": "2020-12-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "435": {
+        "id": 435,
+        "obra": 4,
+        "data": "2020-12-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "437": {
+        "id": 437,
+        "obra": 4,
+        "data": "2020-12-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "438": {
+        "id": 438,
+        "obra": 4,
+        "data": "2020-12-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "439": {
+        "id": 439,
+        "obra": 4,
+        "data": "2020-12-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "440": {
+        "id": 440,
+        "obra": 4,
+        "data": "2020-12-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "441": {
+        "id": 441,
+        "obra": 9,
+        "data": "2020-12-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "444": {
+        "id": 444,
+        "obra": 4,
+        "data": "2020-12-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "445": {
+        "id": 445,
+        "obra": 9,
+        "data": "2020-12-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "446": {
+        "id": 446,
+        "obra": 4,
+        "data": "2020-12-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "448": {
+        "id": 448,
+        "obra": 5,
+        "data": "2020-12-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "449": {
+        "id": 449,
+        "obra": 4,
+        "data": "2020-12-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "450": {
+        "id": 450,
+        "obra": 1,
+        "data": "2020-12-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "452": {
+        "id": 452,
+        "obra": 4,
+        "data": "2020-12-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "454": {
+        "id": 454,
+        "obra": 4,
+        "data": "2020-12-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "455": {
+        "id": 455,
+        "obra": 4,
+        "data": "2020-12-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "456": {
+        "id": 456,
+        "obra": 1,
+        "data": "2020-12-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "457": {
+        "id": 457,
+        "obra": 4,
+        "data": "2020-12-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "458": {
+        "id": 458,
+        "obra": 4,
+        "data": "2021-01-06",
+        "status": "CANCELED",
+        "criado_por": "ALYSSON"
+    },
+    "460": {
+        "id": 460,
+        "obra": 7,
+        "data": "2021-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "461": {
+        "id": 461,
+        "obra": 4,
+        "data": "2021-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "462": {
+        "id": 462,
+        "obra": 4,
+        "data": "2021-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "463": {
+        "id": 463,
+        "obra": 4,
+        "data": "2021-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ALYSSON"
+    },
+    "464": {
+        "id": 464,
+        "obra": 4,
+        "data": "2021-01-11",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "465": {
+        "id": 465,
+        "obra": 5,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "466": {
+        "id": 466,
+        "obra": 1,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "467": {
+        "id": 467,
+        "obra": 4,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "468": {
+        "id": 468,
+        "obra": 7,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "469": {
+        "id": 469,
+        "obra": 9,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "470": {
+        "id": 470,
+        "obra": 8,
+        "data": "2021-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "471": {
+        "id": 471,
+        "obra": 7,
+        "data": "2021-01-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "472": {
+        "id": 472,
+        "obra": 1,
+        "data": "2021-01-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "474": {
+        "id": 474,
+        "obra": 5,
+        "data": "2021-02-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "476": {
+        "id": 476,
+        "obra": 7,
+        "data": "2021-02-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "477": {
+        "id": 477,
+        "obra": 7,
+        "data": "2021-02-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "478": {
+        "id": 478,
+        "obra": 1,
+        "data": "2021-02-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "480": {
+        "id": 480,
+        "obra": 4,
+        "data": "2021-02-08",
+        "status": "CANCELED",
+        "criado_por": "VICTOR"
+    },
+    "481": {
+        "id": 481,
+        "obra": 8,
+        "data": "2021-02-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "482": {
+        "id": 482,
+        "obra": 5,
+        "data": "2021-02-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "483": {
+        "id": 483,
+        "obra": 9,
+        "data": "2021-02-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "484": {
+        "id": 484,
+        "obra": 6,
+        "data": "2021-02-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "491": {
+        "id": 491,
+        "obra": 7,
+        "data": "2021-02-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "492": {
+        "id": 492,
+        "obra": 5,
+        "data": "2021-02-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "493": {
+        "id": 493,
+        "obra": 5,
+        "data": "2021-02-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "497": {
+        "id": 497,
+        "obra": 1,
+        "data": "2021-02-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "498": {
+        "id": 498,
+        "obra": 7,
+        "data": "2021-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "499": {
+        "id": 499,
+        "obra": 1,
+        "data": "2021-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "500": {
+        "id": 500,
+        "obra": 4,
+        "data": "2021-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "501": {
+        "id": 501,
+        "obra": 5,
+        "data": "2021-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "503": {
+        "id": 503,
+        "obra": 3,
+        "data": "2021-03-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "505": {
+        "id": 505,
+        "obra": 7,
+        "data": "2021-03-08",
+        "status": "CANCELED",
+        "criado_por": "LUIGI"
+    },
+    "508": {
+        "id": 508,
+        "obra": 7,
+        "data": "2021-03-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "510": {
+        "id": 510,
+        "obra": 1,
+        "data": "2021-03-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "511": {
+        "id": 511,
+        "obra": 7,
+        "data": "2021-03-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "513": {
+        "id": 513,
+        "obra": 7,
+        "data": "2021-03-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "514": {
+        "id": 514,
+        "obra": 4,
+        "data": "2021-03-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "515": {
+        "id": 515,
+        "obra": 5,
+        "data": "2021-03-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "516": {
+        "id": 516,
+        "obra": 7,
+        "data": "2021-03-18",
+        "status": "PENDING",
+        "criado_por": "LUIGI"
+    },
+    "520": {
+        "id": 520,
+        "obra": 7,
+        "data": "2021-03-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "524": {
+        "id": 524,
+        "obra": 7,
+        "data": "2021-03-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "525": {
+        "id": 525,
+        "obra": 3,
+        "data": "2021-03-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "526": {
+        "id": 526,
+        "obra": 7,
+        "data": "2021-04-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "527": {
+        "id": 527,
+        "obra": 7,
+        "data": "2021-04-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "528": {
+        "id": 528,
+        "obra": 7,
+        "data": "2021-04-03",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "529": {
+        "id": 529,
+        "obra": 7,
+        "data": "2021-04-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "530": {
+        "id": 530,
+        "obra": 7,
+        "data": "2021-04-04",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "531": {
+        "id": 531,
+        "obra": 5,
+        "data": "2021-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "532": {
+        "id": 532,
+        "obra": 7,
+        "data": "2021-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "533": {
+        "id": 533,
+        "obra": 7,
+        "data": "2021-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "534": {
+        "id": 534,
+        "obra": 4,
+        "data": "2021-04-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "535": {
+        "id": 535,
+        "obra": 7,
+        "data": "2021-04-08",
+        "status": "CANCELED",
+        "criado_por": "LUIGI"
+    },
+    "536": {
+        "id": 536,
+        "obra": 7,
+        "data": "2021-04-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "538": {
+        "id": 538,
+        "obra": 5,
+        "data": "2021-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "539": {
+        "id": 539,
+        "obra": 5,
+        "data": "2021-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "540": {
+        "id": 540,
+        "obra": 5,
+        "data": "2021-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "541": {
+        "id": 541,
+        "obra": 7,
+        "data": "2021-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "543": {
+        "id": 543,
+        "obra": 7,
+        "data": "2021-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "544": {
+        "id": 544,
+        "obra": 5,
+        "data": "2021-04-10",
+        "status": "CANCELED",
+        "criado_por": "COMPRAS01"
+    },
+    "546": {
+        "id": 546,
+        "obra": 5,
+        "data": "2021-04-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "549": {
+        "id": 549,
+        "obra": 7,
+        "data": "2021-05-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "550": {
+        "id": 550,
+        "obra": 5,
+        "data": "2021-05-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "551": {
+        "id": 551,
+        "obra": 7,
+        "data": "2021-04-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "552": {
+        "id": 552,
+        "obra": 7,
+        "data": "2021-05-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "553": {
+        "id": 553,
+        "obra": 7,
+        "data": "2021-05-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "554": {
+        "id": 554,
+        "obra": 5,
+        "data": "2021-05-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "555": {
+        "id": 555,
+        "obra": 5,
+        "data": "2021-05-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "556": {
+        "id": 556,
+        "obra": 7,
+        "data": "2021-05-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "559": {
+        "id": 559,
+        "obra": 7,
+        "data": "2021-05-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "560": {
+        "id": 560,
+        "obra": 7,
+        "data": "2021-05-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "561": {
+        "id": 561,
+        "obra": 7,
+        "data": "2021-05-31",
+        "status": "CANCELED",
+        "criado_por": "LUIGI"
+    },
+    "562": {
+        "id": 562,
+        "obra": 7,
+        "data": "2021-05-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "565": {
+        "id": 565,
+        "obra": 5,
+        "data": "2021-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "567": {
+        "id": 567,
+        "obra": 7,
+        "data": "2021-06-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "568": {
+        "id": 568,
+        "obra": 7,
+        "data": "2021-06-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "569": {
+        "id": 569,
+        "obra": 7,
+        "data": "2021-06-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "570": {
+        "id": 570,
+        "obra": 1,
+        "data": "2021-06-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "571": {
+        "id": 571,
+        "obra": 1,
+        "data": "2021-07-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "572": {
+        "id": 572,
+        "obra": 5,
+        "data": "2021-07-06",
+        "status": "CANCELED",
+        "criado_por": "JUNIOR"
+    },
+    "574": {
+        "id": 574,
+        "obra": 5,
+        "data": "2021-07-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "576": {
+        "id": 576,
+        "obra": 7,
+        "data": "2021-07-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "577": {
+        "id": 577,
+        "obra": 7,
+        "data": "2021-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "578": {
+        "id": 578,
+        "obra": 3,
+        "data": "2021-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "579": {
+        "id": 579,
+        "obra": 7,
+        "data": "2021-07-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "580": {
+        "id": 580,
+        "obra": 7,
+        "data": "2021-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "581": {
+        "id": 581,
+        "obra": 7,
+        "data": "2021-07-28",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "582": {
+        "id": 582,
+        "obra": 7,
+        "data": "2021-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "583": {
+        "id": 583,
+        "obra": 7,
+        "data": "2021-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "584": {
+        "id": 584,
+        "obra": 1,
+        "data": "2021-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "585": {
+        "id": 585,
+        "obra": 1,
+        "data": "2021-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "587": {
+        "id": 587,
+        "obra": 7,
+        "data": "2021-08-23",
+        "status": "CANCELED",
+        "criado_por": "LUIGI"
+    },
+    "588": {
+        "id": 588,
+        "obra": 7,
+        "data": "2021-08-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "589": {
+        "id": 589,
+        "obra": 7,
+        "data": "2021-08-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "590": {
+        "id": 590,
+        "obra": 7,
+        "data": "2021-08-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "594": {
+        "id": 594,
+        "obra": 7,
+        "data": "2021-09-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "596": {
+        "id": 596,
+        "obra": 7,
+        "data": "2021-09-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "598": {
+        "id": 598,
+        "obra": 3,
+        "data": "2021-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "599": {
+        "id": 599,
+        "obra": 7,
+        "data": "2021-09-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "600": {
+        "id": 600,
+        "obra": 7,
+        "data": "2021-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "601": {
+        "id": 601,
+        "obra": 5,
+        "data": "2021-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "JUNIOR"
+    },
+    "602": {
+        "id": 602,
+        "obra": 7,
+        "data": "2021-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "603": {
+        "id": 603,
+        "obra": 7,
+        "data": "2021-09-10",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "605": {
+        "id": 605,
+        "obra": 7,
+        "data": "2021-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "606": {
+        "id": 606,
+        "obra": 7,
+        "data": "2021-09-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "607": {
+        "id": 607,
+        "obra": 7,
+        "data": "2021-09-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "608": {
+        "id": 608,
+        "obra": 7,
+        "data": "2021-09-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "610": {
+        "id": 610,
+        "obra": 7,
+        "data": "2021-09-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "611": {
+        "id": 611,
+        "obra": 7,
+        "data": "2021-09-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "612": {
+        "id": 612,
+        "obra": 7,
+        "data": "2021-09-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "613": {
+        "id": 613,
+        "obra": 7,
+        "data": "2021-09-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "614": {
+        "id": 614,
+        "obra": 7,
+        "data": "2021-09-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "615": {
+        "id": 615,
+        "obra": 7,
+        "data": "2021-09-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "616": {
+        "id": 616,
+        "obra": 7,
+        "data": "2021-09-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "618": {
+        "id": 618,
+        "obra": 7,
+        "data": "2021-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "619": {
+        "id": 619,
+        "obra": 7,
+        "data": "2021-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "620": {
+        "id": 620,
+        "obra": 7,
+        "data": "2021-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "621": {
+        "id": 621,
+        "obra": 7,
+        "data": "2021-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "623": {
+        "id": 623,
+        "obra": 7,
+        "data": "2021-09-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "625": {
+        "id": 625,
+        "obra": 7,
+        "data": "2021-09-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "626": {
+        "id": 626,
+        "obra": 7,
+        "data": "2021-09-25",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "627": {
+        "id": 627,
+        "obra": 7,
+        "data": "2021-09-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "628": {
+        "id": 628,
+        "obra": 7,
+        "data": "2021-09-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "629": {
+        "id": 629,
+        "obra": 7,
+        "data": "2021-09-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "630": {
+        "id": 630,
+        "obra": 7,
+        "data": "2021-09-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "632": {
+        "id": 632,
+        "obra": 7,
+        "data": "2021-09-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "633": {
+        "id": 633,
+        "obra": 7,
+        "data": "2021-10-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "637": {
+        "id": 637,
+        "obra": 7,
+        "data": "2021-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "638": {
+        "id": 638,
+        "obra": 7,
+        "data": "2021-10-07",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "640": {
+        "id": 640,
+        "obra": 7,
+        "data": "2021-10-07",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "641": {
+        "id": 641,
+        "obra": 7,
+        "data": "2021-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "643": {
+        "id": 643,
+        "obra": 7,
+        "data": "2021-10-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "646": {
+        "id": 646,
+        "obra": 7,
+        "data": "2021-10-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "647": {
+        "id": 647,
+        "obra": 7,
+        "data": "2021-10-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "GUILHERME.MAINARDES"
+    },
+    "649": {
+        "id": 649,
+        "obra": 7,
+        "data": "2021-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "650": {
+        "id": 650,
+        "obra": 7,
+        "data": "2021-10-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "651": {
+        "id": 651,
+        "obra": 7,
+        "data": "2021-10-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "653": {
+        "id": 653,
+        "obra": 7,
+        "data": "2021-10-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "655": {
+        "id": 655,
+        "obra": 7,
+        "data": "2021-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "657": {
+        "id": 657,
+        "obra": 7,
+        "data": "2021-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "658": {
+        "id": 658,
+        "obra": 7,
+        "data": "2021-10-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "664": {
+        "id": 664,
+        "obra": 7,
+        "data": "2021-11-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "665": {
+        "id": 665,
+        "obra": 7,
+        "data": "2021-11-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "666": {
+        "id": 666,
+        "obra": 7,
+        "data": "2021-11-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "675": {
+        "id": 675,
+        "obra": 7,
+        "data": "2021-11-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "676": {
+        "id": 676,
+        "obra": 7,
+        "data": "2021-11-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "677": {
+        "id": 677,
+        "obra": 7,
+        "data": "2021-11-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "679": {
+        "id": 679,
+        "obra": 7,
+        "data": "2021-11-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "680": {
+        "id": 680,
+        "obra": 7,
+        "data": "2021-11-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "681": {
+        "id": 681,
+        "obra": 7,
+        "data": "2021-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "683": {
+        "id": 683,
+        "obra": 7,
+        "data": "2021-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "684": {
+        "id": 684,
+        "obra": 7,
+        "data": "2021-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "685": {
+        "id": 685,
+        "obra": 7,
+        "data": "2021-11-11",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "686": {
+        "id": 686,
+        "obra": 7,
+        "data": "2021-11-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "687": {
+        "id": 687,
+        "obra": 7,
+        "data": "2021-11-12",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "688": {
+        "id": 688,
+        "obra": 3,
+        "data": "2021-11-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "689": {
+        "id": 689,
+        "obra": 7,
+        "data": "2021-11-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "690": {
+        "id": 690,
+        "obra": 7,
+        "data": "2021-11-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "692": {
+        "id": 692,
+        "obra": 7,
+        "data": "2021-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "693": {
+        "id": 693,
+        "obra": 7,
+        "data": "2021-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "694": {
+        "id": 694,
+        "obra": 7,
+        "data": "2021-11-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "696": {
+        "id": 696,
+        "obra": 7,
+        "data": "2021-11-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "700": {
+        "id": 700,
+        "obra": 7,
+        "data": "2021-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "703": {
+        "id": 703,
+        "obra": 7,
+        "data": "2021-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "704": {
+        "id": 704,
+        "obra": 7,
+        "data": "2021-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "707": {
+        "id": 707,
+        "obra": 7,
+        "data": "2021-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "709": {
+        "id": 709,
+        "obra": 7,
+        "data": "2021-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "713": {
+        "id": 713,
+        "obra": 7,
+        "data": "2021-11-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "714": {
+        "id": 714,
+        "obra": 7,
+        "data": "2021-11-29",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "716": {
+        "id": 716,
+        "obra": 7,
+        "data": "2021-12-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "717": {
+        "id": 717,
+        "obra": 7,
+        "data": "2021-12-01",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "718": {
+        "id": 718,
+        "obra": 1,
+        "data": "2021-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "719": {
+        "id": 719,
+        "obra": 1,
+        "data": "2021-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "720": {
+        "id": 720,
+        "obra": 7,
+        "data": "2021-12-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "721": {
+        "id": 721,
+        "obra": 5,
+        "data": "2021-12-03",
+        "status": "CANCELED",
+        "criado_por": "JUNIOR"
+    },
+    "723": {
+        "id": 723,
+        "obra": 7,
+        "data": "2021-12-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "724": {
+        "id": 724,
+        "obra": 7,
+        "data": "2021-12-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "726": {
+        "id": 726,
+        "obra": 7,
+        "data": "2021-12-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "727": {
+        "id": 727,
+        "obra": 7,
+        "data": "2021-12-08",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "728": {
+        "id": 728,
+        "obra": 7,
+        "data": "2021-12-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "729": {
+        "id": 729,
+        "obra": 1,
+        "data": "2021-12-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "730": {
+        "id": 730,
+        "obra": 1,
+        "data": "2021-12-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "733": {
+        "id": 733,
+        "obra": 7,
+        "data": "2022-01-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "734": {
+        "id": 734,
+        "obra": 7,
+        "data": "2022-01-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "735": {
+        "id": 735,
+        "obra": 7,
+        "data": "2022-01-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "736": {
+        "id": 736,
+        "obra": 7,
+        "data": "2022-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "737": {
+        "id": 737,
+        "obra": 7,
+        "data": "2022-01-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "738": {
+        "id": 738,
+        "obra": 7,
+        "data": "2022-01-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "739": {
+        "id": 739,
+        "obra": 7,
+        "data": "2022-01-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "740": {
+        "id": 740,
+        "obra": 7,
+        "data": "2022-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "741": {
+        "id": 741,
+        "obra": 7,
+        "data": "2022-01-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "742": {
+        "id": 742,
+        "obra": 7,
+        "data": "2022-01-13",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "743": {
+        "id": 743,
+        "obra": 7,
+        "data": "2022-01-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "744": {
+        "id": 744,
+        "obra": 7,
+        "data": "2022-01-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "745": {
+        "id": 745,
+        "obra": 7,
+        "data": "2022-01-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "746": {
+        "id": 746,
+        "obra": 7,
+        "data": "2022-01-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "747": {
+        "id": 747,
+        "obra": 7,
+        "data": "2022-01-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "748": {
+        "id": 748,
+        "obra": 7,
+        "data": "2022-01-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "749": {
+        "id": 749,
+        "obra": 7,
+        "data": "2022-01-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "750": {
+        "id": 750,
+        "obra": 7,
+        "data": "2022-01-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "751": {
+        "id": 751,
+        "obra": 1,
+        "data": "2022-01-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "752": {
+        "id": 752,
+        "obra": 7,
+        "data": "2022-01-21",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "754": {
+        "id": 754,
+        "obra": 7,
+        "data": "2022-01-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "755": {
+        "id": 755,
+        "obra": 7,
+        "data": "2022-01-24",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "757": {
+        "id": 757,
+        "obra": 7,
+        "data": "2022-01-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "758": {
+        "id": 758,
+        "obra": 7,
+        "data": "2022-01-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "759": {
+        "id": 759,
+        "obra": 7,
+        "data": "2022-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "760": {
+        "id": 760,
+        "obra": 7,
+        "data": "2022-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "761": {
+        "id": 761,
+        "obra": 7,
+        "data": "2022-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "762": {
+        "id": 762,
+        "obra": 7,
+        "data": "2022-02-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "763": {
+        "id": 763,
+        "obra": 7,
+        "data": "2022-02-02",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "764": {
+        "id": 764,
+        "obra": 7,
+        "data": "2022-02-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "765": {
+        "id": 765,
+        "obra": 7,
+        "data": "2022-02-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "768": {
+        "id": 768,
+        "obra": 7,
+        "data": "2022-02-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "769": {
+        "id": 769,
+        "obra": 7,
+        "data": "2022-02-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "770": {
+        "id": 770,
+        "obra": 7,
+        "data": "2022-02-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "771": {
+        "id": 771,
+        "obra": 7,
+        "data": "2022-02-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "772": {
+        "id": 772,
+        "obra": 7,
+        "data": "2022-02-07",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "774": {
+        "id": 774,
+        "obra": 7,
+        "data": "2022-02-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "775": {
+        "id": 775,
+        "obra": 7,
+        "data": "2022-02-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "776": {
+        "id": 776,
+        "obra": 7,
+        "data": "2022-02-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "777": {
+        "id": 777,
+        "obra": 7,
+        "data": "2022-02-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "779": {
+        "id": 779,
+        "obra": 7,
+        "data": "2022-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "780": {
+        "id": 780,
+        "obra": 7,
+        "data": "2022-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "781": {
+        "id": 781,
+        "obra": 7,
+        "data": "2022-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "782": {
+        "id": 782,
+        "obra": 7,
+        "data": "2022-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "784": {
+        "id": 784,
+        "obra": 7,
+        "data": "2022-02-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "788": {
+        "id": 788,
+        "obra": 7,
+        "data": "2022-02-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "793": {
+        "id": 793,
+        "obra": 7,
+        "data": "2022-02-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "794": {
+        "id": 794,
+        "obra": 5,
+        "data": "2022-02-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "795": {
+        "id": 795,
+        "obra": 7,
+        "data": "2022-02-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "796": {
+        "id": 796,
+        "obra": 7,
+        "data": "2022-02-24",
+        "status": "CANCELED",
+        "criado_por": "COMPRAS01"
+    },
+    "797": {
+        "id": 797,
+        "obra": 7,
+        "data": "2022-02-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "798": {
+        "id": 798,
+        "obra": 7,
+        "data": "2022-02-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "799": {
+        "id": 799,
+        "obra": 7,
+        "data": "2022-02-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "800": {
+        "id": 800,
+        "obra": 7,
+        "data": "2022-02-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "803": {
+        "id": 803,
+        "obra": 7,
+        "data": "2022-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "804": {
+        "id": 804,
+        "obra": 7,
+        "data": "2022-03-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "805": {
+        "id": 805,
+        "obra": 7,
+        "data": "2022-03-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "806": {
+        "id": 806,
+        "obra": 7,
+        "data": "2022-03-03",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "807": {
+        "id": 807,
+        "obra": 7,
+        "data": "2022-03-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "808": {
+        "id": 808,
+        "obra": 7,
+        "data": "2022-03-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "809": {
+        "id": 809,
+        "obra": 7,
+        "data": "2022-03-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "810": {
+        "id": 810,
+        "obra": 7,
+        "data": "2022-03-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "811": {
+        "id": 811,
+        "obra": 7,
+        "data": "2022-03-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "813": {
+        "id": 813,
+        "obra": 7,
+        "data": "2022-03-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "815": {
+        "id": 815,
+        "obra": 7,
+        "data": "2022-03-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "817": {
+        "id": 817,
+        "obra": 7,
+        "data": "2022-03-10",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "818": {
+        "id": 818,
+        "obra": 7,
+        "data": "2022-03-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "819": {
+        "id": 819,
+        "obra": 7,
+        "data": "2022-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "820": {
+        "id": 820,
+        "obra": 4,
+        "data": "2022-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "821": {
+        "id": 821,
+        "obra": 7,
+        "data": "2022-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "822": {
+        "id": 822,
+        "obra": 7,
+        "data": "2022-03-16",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "824": {
+        "id": 824,
+        "obra": 7,
+        "data": "2022-03-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "825": {
+        "id": 825,
+        "obra": 7,
+        "data": "2022-03-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "826": {
+        "id": 826,
+        "obra": 7,
+        "data": "2022-03-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "827": {
+        "id": 827,
+        "obra": 7,
+        "data": "2022-03-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "828": {
+        "id": 828,
+        "obra": 7,
+        "data": "2022-03-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "829": {
+        "id": 829,
+        "obra": 7,
+        "data": "2022-03-25",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "830": {
+        "id": 830,
+        "obra": 7,
+        "data": "2022-03-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "832": {
+        "id": 832,
+        "obra": 7,
+        "data": "2022-03-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "833": {
+        "id": 833,
+        "obra": 7,
+        "data": "2022-03-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "834": {
+        "id": 834,
+        "obra": 7,
+        "data": "2022-03-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "835": {
+        "id": 835,
+        "obra": 7,
+        "data": "2022-03-31",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "836": {
+        "id": 836,
+        "obra": 7,
+        "data": "2022-03-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "837": {
+        "id": 837,
+        "obra": 7,
+        "data": "2022-04-04",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "838": {
+        "id": 838,
+        "obra": 7,
+        "data": "2022-04-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "839": {
+        "id": 839,
+        "obra": 7,
+        "data": "2022-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "840": {
+        "id": 840,
+        "obra": 7,
+        "data": "2022-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "841": {
+        "id": 841,
+        "obra": 7,
+        "data": "2022-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "842": {
+        "id": 842,
+        "obra": 7,
+        "data": "2022-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "843": {
+        "id": 843,
+        "obra": 7,
+        "data": "2022-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "844": {
+        "id": 844,
+        "obra": 7,
+        "data": "2022-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "845": {
+        "id": 845,
+        "obra": 1,
+        "data": "2022-04-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "846": {
+        "id": 846,
+        "obra": 7,
+        "data": "2022-04-11",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "847": {
+        "id": 847,
+        "obra": 7,
+        "data": "2022-04-11",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "848": {
+        "id": 848,
+        "obra": 7,
+        "data": "2022-04-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "849": {
+        "id": 849,
+        "obra": 7,
+        "data": "2022-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "850": {
+        "id": 850,
+        "obra": 1,
+        "data": "2022-04-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "851": {
+        "id": 851,
+        "obra": 7,
+        "data": "2022-04-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "852": {
+        "id": 852,
+        "obra": 7,
+        "data": "2022-04-18",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "853": {
+        "id": 853,
+        "obra": 7,
+        "data": "2022-04-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "854": {
+        "id": 854,
+        "obra": 7,
+        "data": "2022-04-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "855": {
+        "id": 855,
+        "obra": 7,
+        "data": "2022-04-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "856": {
+        "id": 856,
+        "obra": 7,
+        "data": "2022-04-29",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "858": {
+        "id": 858,
+        "obra": 7,
+        "data": "2022-04-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "859": {
+        "id": 859,
+        "obra": 7,
+        "data": "2022-04-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "862": {
+        "id": 862,
+        "obra": 7,
+        "data": "2022-05-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "863": {
+        "id": 863,
+        "obra": 7,
+        "data": "2022-05-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "864": {
+        "id": 864,
+        "obra": 4,
+        "data": "2022-05-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "865": {
+        "id": 865,
+        "obra": 7,
+        "data": "2022-05-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "867": {
+        "id": 867,
+        "obra": 7,
+        "data": "2022-05-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "868": {
+        "id": 868,
+        "obra": 7,
+        "data": "2022-05-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "869": {
+        "id": 869,
+        "obra": 4,
+        "data": "2022-05-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "871": {
+        "id": 871,
+        "obra": 7,
+        "data": "2022-05-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "872": {
+        "id": 872,
+        "obra": 7,
+        "data": "2022-05-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "873": {
+        "id": 873,
+        "obra": 7,
+        "data": "2022-05-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "874": {
+        "id": 874,
+        "obra": 7,
+        "data": "2022-05-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "875": {
+        "id": 875,
+        "obra": 7,
+        "data": "2022-05-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "876": {
+        "id": 876,
+        "obra": 7,
+        "data": "2022-05-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "877": {
+        "id": 877,
+        "obra": 7,
+        "data": "2022-05-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "878": {
+        "id": 878,
+        "obra": 7,
+        "data": "2022-05-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "880": {
+        "id": 880,
+        "obra": 7,
+        "data": "2022-05-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "883": {
+        "id": 883,
+        "obra": 7,
+        "data": "2022-05-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "884": {
+        "id": 884,
+        "obra": 7,
+        "data": "2022-05-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "886": {
+        "id": 886,
+        "obra": 7,
+        "data": "2022-05-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "887": {
+        "id": 887,
+        "obra": 7,
+        "data": "2022-05-24",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "899": {
+        "id": 899,
+        "obra": 7,
+        "data": "2022-05-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "900": {
+        "id": 900,
+        "obra": 7,
+        "data": "2022-05-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "903": {
+        "id": 903,
+        "obra": 7,
+        "data": "2022-05-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "907": {
+        "id": 907,
+        "obra": 7,
+        "data": "2022-06-02",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "908": {
+        "id": 908,
+        "obra": 7,
+        "data": "2022-06-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "912": {
+        "id": 912,
+        "obra": 7,
+        "data": "2022-06-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "913": {
+        "id": 913,
+        "obra": 7,
+        "data": "2022-06-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "914": {
+        "id": 914,
+        "obra": 7,
+        "data": "2022-06-08",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "915": {
+        "id": 915,
+        "obra": 7,
+        "data": "2022-06-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "916": {
+        "id": 916,
+        "obra": 7,
+        "data": "2022-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "917": {
+        "id": 917,
+        "obra": 7,
+        "data": "2022-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "919": {
+        "id": 919,
+        "obra": 7,
+        "data": "2022-06-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "921": {
+        "id": 921,
+        "obra": 7,
+        "data": "2022-06-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "922": {
+        "id": 922,
+        "obra": 7,
+        "data": "2022-06-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "923": {
+        "id": 923,
+        "obra": 97,
+        "data": "2022-06-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "924": {
+        "id": 924,
+        "obra": 97,
+        "data": "2022-06-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "925": {
+        "id": 925,
+        "obra": 97,
+        "data": "2022-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "926": {
+        "id": 926,
+        "obra": 7,
+        "data": "2022-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "927": {
+        "id": 927,
+        "obra": 104,
+        "data": "2022-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "929": {
+        "id": 929,
+        "obra": 97,
+        "data": "2022-06-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "930": {
+        "id": 930,
+        "obra": 103,
+        "data": "2022-06-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "932": {
+        "id": 932,
+        "obra": 104,
+        "data": "2022-06-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "934": {
+        "id": 934,
+        "obra": 7,
+        "data": "2022-06-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "936": {
+        "id": 936,
+        "obra": 7,
+        "data": "2022-06-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "937": {
+        "id": 937,
+        "obra": 7,
+        "data": "2022-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "938": {
+        "id": 938,
+        "obra": 97,
+        "data": "2022-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "939": {
+        "id": 939,
+        "obra": 97,
+        "data": "2022-06-28",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "941": {
+        "id": 941,
+        "obra": 97,
+        "data": "2022-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "942": {
+        "id": 942,
+        "obra": 7,
+        "data": "2022-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "944": {
+        "id": 944,
+        "obra": 7,
+        "data": "2022-06-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "945": {
+        "id": 945,
+        "obra": 7,
+        "data": "2022-06-30",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "946": {
+        "id": 946,
+        "obra": 7,
+        "data": "2022-06-30",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "947": {
+        "id": 947,
+        "obra": 7,
+        "data": "2022-07-04",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "948": {
+        "id": 948,
+        "obra": 7,
+        "data": "2022-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "949": {
+        "id": 949,
+        "obra": 7,
+        "data": "2022-07-06",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "950": {
+        "id": 950,
+        "obra": 97,
+        "data": "2022-07-06",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "951": {
+        "id": 951,
+        "obra": 7,
+        "data": "2022-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "952": {
+        "id": 952,
+        "obra": 7,
+        "data": "2022-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "953": {
+        "id": 953,
+        "obra": 7,
+        "data": "2022-07-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "954": {
+        "id": 954,
+        "obra": 7,
+        "data": "2022-07-11",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "955": {
+        "id": 955,
+        "obra": 7,
+        "data": "2022-07-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "956": {
+        "id": 956,
+        "obra": 7,
+        "data": "2022-07-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "957": {
+        "id": 957,
+        "obra": 7,
+        "data": "2022-07-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "958": {
+        "id": 958,
+        "obra": 7,
+        "data": "2022-07-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "959": {
+        "id": 959,
+        "obra": 97,
+        "data": "2022-07-18",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "960": {
+        "id": 960,
+        "obra": 8,
+        "data": "2022-07-19",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "961": {
+        "id": 961,
+        "obra": 7,
+        "data": "2022-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "962": {
+        "id": 962,
+        "obra": 7,
+        "data": "2022-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "963": {
+        "id": 963,
+        "obra": 97,
+        "data": "2022-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "964": {
+        "id": 964,
+        "obra": 97,
+        "data": "2022-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "965": {
+        "id": 965,
+        "obra": 7,
+        "data": "2022-07-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "966": {
+        "id": 966,
+        "obra": 7,
+        "data": "2022-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "967": {
+        "id": 967,
+        "obra": 7,
+        "data": "2022-07-26",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "968": {
+        "id": 968,
+        "obra": 7,
+        "data": "2022-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "969": {
+        "id": 969,
+        "obra": 7,
+        "data": "2022-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "970": {
+        "id": 970,
+        "obra": 7,
+        "data": "2022-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "971": {
+        "id": 971,
+        "obra": 7,
+        "data": "2022-08-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "972": {
+        "id": 972,
+        "obra": 7,
+        "data": "2022-08-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "973": {
+        "id": 973,
+        "obra": 97,
+        "data": "2022-08-02",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "974": {
+        "id": 974,
+        "obra": 97,
+        "data": "2022-08-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "975": {
+        "id": 975,
+        "obra": 7,
+        "data": "2022-08-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "976": {
+        "id": 976,
+        "obra": 7,
+        "data": "2022-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "977": {
+        "id": 977,
+        "obra": 7,
+        "data": "2022-08-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "978": {
+        "id": 978,
+        "obra": 7,
+        "data": "2022-08-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "979": {
+        "id": 979,
+        "obra": 7,
+        "data": "2022-08-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "980": {
+        "id": 980,
+        "obra": 7,
+        "data": "2022-08-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "981": {
+        "id": 981,
+        "obra": 7,
+        "data": "2022-08-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "982": {
+        "id": 982,
+        "obra": 7,
+        "data": "2022-08-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "983": {
+        "id": 983,
+        "obra": 7,
+        "data": "2022-08-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "984": {
+        "id": 984,
+        "obra": 7,
+        "data": "2022-08-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "985": {
+        "id": 985,
+        "obra": 7,
+        "data": "2022-08-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "986": {
+        "id": 986,
+        "obra": 7,
+        "data": "2022-08-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "987": {
+        "id": 987,
+        "obra": 7,
+        "data": "2022-08-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "988": {
+        "id": 988,
+        "obra": 7,
+        "data": "2022-08-16",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "989": {
+        "id": 989,
+        "obra": 97,
+        "data": "2022-08-16",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "990": {
+        "id": 990,
+        "obra": 7,
+        "data": "2022-08-17",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "991": {
+        "id": 991,
+        "obra": 97,
+        "data": "2022-08-17",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "992": {
+        "id": 992,
+        "obra": 7,
+        "data": "2022-08-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "993": {
+        "id": 993,
+        "obra": 7,
+        "data": "2022-08-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "994": {
+        "id": 994,
+        "obra": 7,
+        "data": "2022-08-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "996": {
+        "id": 996,
+        "obra": 7,
+        "data": "2022-08-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "997": {
+        "id": 997,
+        "obra": 7,
+        "data": "2022-08-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "998": {
+        "id": 998,
+        "obra": 7,
+        "data": "2022-08-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "999": {
+        "id": 999,
+        "obra": 7,
+        "data": "2022-08-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1000": {
+        "id": 1000,
+        "obra": 97,
+        "data": "2022-08-29",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1001": {
+        "id": 1001,
+        "obra": 7,
+        "data": "2022-08-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1002": {
+        "id": 1002,
+        "obra": 7,
+        "data": "2022-08-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1003": {
+        "id": 1003,
+        "obra": 7,
+        "data": "2022-08-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1004": {
+        "id": 1004,
+        "obra": 7,
+        "data": "2022-08-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "DAYANE"
+    },
+    "1005": {
+        "id": 1005,
+        "obra": 7,
+        "data": "2022-08-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1006": {
+        "id": 1006,
+        "obra": 7,
+        "data": "2022-08-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1007": {
+        "id": 1007,
+        "obra": 7,
+        "data": "2022-09-01",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1008": {
+        "id": 1008,
+        "obra": 7,
+        "data": "2022-09-01",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1009": {
+        "id": 1009,
+        "obra": 7,
+        "data": "2022-09-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1010": {
+        "id": 1010,
+        "obra": 7,
+        "data": "2022-09-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1011": {
+        "id": 1011,
+        "obra": 7,
+        "data": "2022-09-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "1012": {
+        "id": 1012,
+        "obra": 7,
+        "data": "2022-09-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "MARKETING01"
+    },
+    "1013": {
+        "id": 1013,
+        "obra": 97,
+        "data": "2022-09-05",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1014": {
+        "id": 1014,
+        "obra": 7,
+        "data": "2022-09-06",
+        "status": "CANCELED",
+        "criado_por": "EDUARDO"
+    },
+    "1016": {
+        "id": 1016,
+        "obra": 97,
+        "data": "2022-09-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1017": {
+        "id": 1017,
+        "obra": 7,
+        "data": "2022-09-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1018": {
+        "id": 1018,
+        "obra": 7,
+        "data": "2022-09-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1019": {
+        "id": 1019,
+        "obra": 7,
+        "data": "2022-09-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1020": {
+        "id": 1020,
+        "obra": 104,
+        "data": "2022-09-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ESTAGIO01"
+    },
+    "1021": {
+        "id": 1021,
+        "obra": 5,
+        "data": "2022-09-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ESTAGIO01"
+    },
+    "1023": {
+        "id": 1023,
+        "obra": 97,
+        "data": "2022-09-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1025": {
+        "id": 1025,
+        "obra": 7,
+        "data": "2022-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1026": {
+        "id": 1026,
+        "obra": 7,
+        "data": "2022-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1027": {
+        "id": 1027,
+        "obra": 7,
+        "data": "2022-09-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1028": {
+        "id": 1028,
+        "obra": 8,
+        "data": "2022-09-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1029": {
+        "id": 1029,
+        "obra": 7,
+        "data": "2022-09-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1030": {
+        "id": 1030,
+        "obra": 7,
+        "data": "2022-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1031": {
+        "id": 1031,
+        "obra": 7,
+        "data": "2022-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1032": {
+        "id": 1032,
+        "obra": 7,
+        "data": "2022-09-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1033": {
+        "id": 1033,
+        "obra": 97,
+        "data": "2022-09-22",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1036": {
+        "id": 1036,
+        "obra": 97,
+        "data": "2022-09-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1037": {
+        "id": 1037,
+        "obra": 7,
+        "data": "2022-09-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1038": {
+        "id": 1038,
+        "obra": 7,
+        "data": "2022-09-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1039": {
+        "id": 1039,
+        "obra": 7,
+        "data": "2022-10-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1040": {
+        "id": 1040,
+        "obra": 7,
+        "data": "2022-10-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1041": {
+        "id": 1041,
+        "obra": 7,
+        "data": "2022-10-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1042": {
+        "id": 1042,
+        "obra": 7,
+        "data": "2022-10-04",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1043": {
+        "id": 1043,
+        "obra": 97,
+        "data": "2022-10-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1044": {
+        "id": 1044,
+        "obra": 7,
+        "data": "2022-10-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1045": {
+        "id": 1045,
+        "obra": 97,
+        "data": "2022-10-05",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1046": {
+        "id": 1046,
+        "obra": 7,
+        "data": "2022-10-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1047": {
+        "id": 1047,
+        "obra": 7,
+        "data": "2022-10-07",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1049": {
+        "id": 1049,
+        "obra": 7,
+        "data": "2022-10-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1050": {
+        "id": 1050,
+        "obra": 7,
+        "data": "2022-10-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1051": {
+        "id": 1051,
+        "obra": 7,
+        "data": "2022-10-10",
+        "status": "CANCELED",
+        "criado_por": "SDR"
+    },
+    "1052": {
+        "id": 1052,
+        "obra": 7,
+        "data": "2022-10-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1053": {
+        "id": 1053,
+        "obra": 7,
+        "data": "2022-10-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1054": {
+        "id": 1054,
+        "obra": 7,
+        "data": "2022-10-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1055": {
+        "id": 1055,
+        "obra": 8,
+        "data": "2022-10-11",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1056": {
+        "id": 1056,
+        "obra": 7,
+        "data": "2022-10-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1057": {
+        "id": 1057,
+        "obra": 7,
+        "data": "2022-10-14",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1058": {
+        "id": 1058,
+        "obra": 97,
+        "data": "2022-10-17",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1059": {
+        "id": 1059,
+        "obra": 7,
+        "data": "2022-10-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1060": {
+        "id": 1060,
+        "obra": 97,
+        "data": "2022-10-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1061": {
+        "id": 1061,
+        "obra": 7,
+        "data": "2022-10-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1065": {
+        "id": 1065,
+        "obra": 8,
+        "data": "2022-10-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1066": {
+        "id": 1066,
+        "obra": 7,
+        "data": "2022-10-18",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1068": {
+        "id": 1068,
+        "obra": 7,
+        "data": "2022-10-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1069": {
+        "id": 1069,
+        "obra": 7,
+        "data": "2022-10-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1071": {
+        "id": 1071,
+        "obra": 97,
+        "data": "2022-10-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1072": {
+        "id": 1072,
+        "obra": 7,
+        "data": "2022-10-24",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1073": {
+        "id": 1073,
+        "obra": 7,
+        "data": "2022-10-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1074": {
+        "id": 1074,
+        "obra": 7,
+        "data": "2022-10-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1075": {
+        "id": 1075,
+        "obra": 7,
+        "data": "2022-10-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1076": {
+        "id": 1076,
+        "obra": 8,
+        "data": "2022-10-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1077": {
+        "id": 1077,
+        "obra": 7,
+        "data": "2022-10-24",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1079": {
+        "id": 1079,
+        "obra": 7,
+        "data": "2022-10-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1080": {
+        "id": 1080,
+        "obra": 7,
+        "data": "2022-10-31",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1081": {
+        "id": 1081,
+        "obra": 7,
+        "data": "2022-10-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1082": {
+        "id": 1082,
+        "obra": 7,
+        "data": "2022-11-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1083": {
+        "id": 1083,
+        "obra": 1,
+        "data": "2022-11-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1084": {
+        "id": 1084,
+        "obra": 7,
+        "data": "2022-11-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1085": {
+        "id": 1085,
+        "obra": 7,
+        "data": "2022-11-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1086": {
+        "id": 1086,
+        "obra": 7,
+        "data": "2022-11-03",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1088": {
+        "id": 1088,
+        "obra": 97,
+        "data": "2022-11-07",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1089": {
+        "id": 1089,
+        "obra": 7,
+        "data": "2022-11-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1090": {
+        "id": 1090,
+        "obra": 7,
+        "data": "2022-11-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1092": {
+        "id": 1092,
+        "obra": 7,
+        "data": "2022-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1093": {
+        "id": 1093,
+        "obra": 7,
+        "data": "2022-11-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1094": {
+        "id": 1094,
+        "obra": 104,
+        "data": "2022-11-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ESTAGIO01"
+    },
+    "1095": {
+        "id": 1095,
+        "obra": 7,
+        "data": "2022-11-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1096": {
+        "id": 1096,
+        "obra": 97,
+        "data": "2022-11-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1097": {
+        "id": 1097,
+        "obra": 7,
+        "data": "2022-11-17",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1098": {
+        "id": 1098,
+        "obra": 7,
+        "data": "2022-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1099": {
+        "id": 1099,
+        "obra": 7,
+        "data": "2022-11-17",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1100": {
+        "id": 1100,
+        "obra": 7,
+        "data": "2022-11-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1102": {
+        "id": 1102,
+        "obra": 97,
+        "data": "2022-11-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1103": {
+        "id": 1103,
+        "obra": 7,
+        "data": "2022-11-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1105": {
+        "id": 1105,
+        "obra": 7,
+        "data": "2022-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1106": {
+        "id": 1106,
+        "obra": 7,
+        "data": "2022-11-24",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1107": {
+        "id": 1107,
+        "obra": 7,
+        "data": "2022-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1108": {
+        "id": 1108,
+        "obra": 7,
+        "data": "2022-11-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1109": {
+        "id": 1109,
+        "obra": 7,
+        "data": "2022-11-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1110": {
+        "id": 1110,
+        "obra": 7,
+        "data": "2022-11-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1111": {
+        "id": 1111,
+        "obra": 7,
+        "data": "2022-11-29",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1112": {
+        "id": 1112,
+        "obra": 1,
+        "data": "2022-11-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1113": {
+        "id": 1113,
+        "obra": 7,
+        "data": "2022-12-01",
+        "status": "CANCELED",
+        "criado_por": "EDUARDO"
+    },
+    "1114": {
+        "id": 1114,
+        "obra": 7,
+        "data": "2022-12-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1115": {
+        "id": 1115,
+        "obra": 1,
+        "data": "2022-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1116": {
+        "id": 1116,
+        "obra": 1,
+        "data": "2022-12-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1117": {
+        "id": 1117,
+        "obra": 1,
+        "data": "2022-12-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1118": {
+        "id": 1118,
+        "obra": 1,
+        "data": "2022-12-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1119": {
+        "id": 1119,
+        "obra": 7,
+        "data": "2022-12-12",
+        "status": "CANCELED",
+        "criado_por": "PALOMA"
+    },
+    "1120": {
+        "id": 1120,
+        "obra": 7,
+        "data": "2022-12-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1121": {
+        "id": 1121,
+        "obra": 97,
+        "data": "2022-12-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1122": {
+        "id": 1122,
+        "obra": 7,
+        "data": "2022-12-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1123": {
+        "id": 1123,
+        "obra": 7,
+        "data": "2022-12-19",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1124": {
+        "id": 1124,
+        "obra": 8,
+        "data": "2022-12-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1127": {
+        "id": 1127,
+        "obra": 104,
+        "data": "2023-01-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1128": {
+        "id": 1128,
+        "obra": 7,
+        "data": "2023-01-04",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1130": {
+        "id": 1130,
+        "obra": 7,
+        "data": "2023-01-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1131": {
+        "id": 1131,
+        "obra": 7,
+        "data": "2023-01-05",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1133": {
+        "id": 1133,
+        "obra": 97,
+        "data": "2023-01-06",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1134": {
+        "id": 1134,
+        "obra": 1,
+        "data": "2023-01-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1135": {
+        "id": 1135,
+        "obra": 97,
+        "data": "2023-01-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1136": {
+        "id": 1136,
+        "obra": 5,
+        "data": "2023-01-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ESTAGIO01"
+    },
+    "1137": {
+        "id": 1137,
+        "obra": 7,
+        "data": "2023-01-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1138": {
+        "id": 1138,
+        "obra": 1,
+        "data": "2023-01-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1139": {
+        "id": 1139,
+        "obra": 7,
+        "data": "2023-01-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1140": {
+        "id": 1140,
+        "obra": 7,
+        "data": "2023-01-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1141": {
+        "id": 1141,
+        "obra": 7,
+        "data": "2023-01-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1142": {
+        "id": 1142,
+        "obra": 7,
+        "data": "2023-01-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1143": {
+        "id": 1143,
+        "obra": 97,
+        "data": "2023-01-11",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1144": {
+        "id": 1144,
+        "obra": 7,
+        "data": "2023-01-12",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1145": {
+        "id": 1145,
+        "obra": 7,
+        "data": "2023-01-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1146": {
+        "id": 1146,
+        "obra": 1,
+        "data": "2023-01-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1147": {
+        "id": 1147,
+        "obra": 7,
+        "data": "2023-01-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1148": {
+        "id": 1148,
+        "obra": 7,
+        "data": "2023-01-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1150": {
+        "id": 1150,
+        "obra": 7,
+        "data": "2023-01-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1152": {
+        "id": 1152,
+        "obra": 103,
+        "data": "2023-01-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ESTAGIO01"
+    },
+    "1153": {
+        "id": 1153,
+        "obra": 7,
+        "data": "2023-01-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1154": {
+        "id": 1154,
+        "obra": 8,
+        "data": "2023-01-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMERCIAL02"
+    },
+    "1155": {
+        "id": 1155,
+        "obra": 7,
+        "data": "2023-01-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1156": {
+        "id": 1156,
+        "obra": 7,
+        "data": "2023-01-18",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1157": {
+        "id": 1157,
+        "obra": 7,
+        "data": "2023-01-19",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1159": {
+        "id": 1159,
+        "obra": 7,
+        "data": "2023-01-20",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1160": {
+        "id": 1160,
+        "obra": 7,
+        "data": "2023-01-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1161": {
+        "id": 1161,
+        "obra": 97,
+        "data": "2023-01-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1162": {
+        "id": 1162,
+        "obra": 7,
+        "data": "2023-01-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1164": {
+        "id": 1164,
+        "obra": 7,
+        "data": "2023-01-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1165": {
+        "id": 1165,
+        "obra": 8,
+        "data": "2023-01-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMERCIAL02"
+    },
+    "1166": {
+        "id": 1166,
+        "obra": 7,
+        "data": "2023-01-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1168": {
+        "id": 1168,
+        "obra": 97,
+        "data": "2023-01-26",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1169": {
+        "id": 1169,
+        "obra": 97,
+        "data": "2023-01-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1170": {
+        "id": 1170,
+        "obra": 7,
+        "data": "2023-01-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1171": {
+        "id": 1171,
+        "obra": 7,
+        "data": "2023-01-30",
+        "status": "CANCELED",
+        "criado_por": "10"
+    },
+    "1172": {
+        "id": 1172,
+        "obra": 7,
+        "data": "2023-01-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1173": {
+        "id": 1173,
+        "obra": 7,
+        "data": "2023-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1174": {
+        "id": 1174,
+        "obra": 7,
+        "data": "2023-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1175": {
+        "id": 1175,
+        "obra": 7,
+        "data": "2023-02-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1176": {
+        "id": 1176,
+        "obra": 7,
+        "data": "2023-02-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1177": {
+        "id": 1177,
+        "obra": 1,
+        "data": "2023-02-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1178": {
+        "id": 1178,
+        "obra": 7,
+        "data": "2023-02-06",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1179": {
+        "id": 1179,
+        "obra": 7,
+        "data": "2023-02-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1180": {
+        "id": 1180,
+        "obra": 7,
+        "data": "2023-02-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1181": {
+        "id": 1181,
+        "obra": 7,
+        "data": "2023-02-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1183": {
+        "id": 1183,
+        "obra": 8,
+        "data": "2023-02-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMERCIAL02"
+    },
+    "1184": {
+        "id": 1184,
+        "obra": 7,
+        "data": "2023-02-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1185": {
+        "id": 1185,
+        "obra": 97,
+        "data": "2023-02-13",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1186": {
+        "id": 1186,
+        "obra": 7,
+        "data": "2023-02-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1188": {
+        "id": 1188,
+        "obra": 7,
+        "data": "2023-02-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1189": {
+        "id": 1189,
+        "obra": 7,
+        "data": "2023-02-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1190": {
+        "id": 1190,
+        "obra": 103,
+        "data": "2023-02-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1191": {
+        "id": 1191,
+        "obra": 1,
+        "data": "2023-02-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "COMPRAS01"
+    },
+    "1192": {
+        "id": 1192,
+        "obra": 7,
+        "data": "2023-02-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1193": {
+        "id": 1193,
+        "obra": 7,
+        "data": "2023-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1195": {
+        "id": 1195,
+        "obra": 7,
+        "data": "2023-02-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1196": {
+        "id": 1196,
+        "obra": 1,
+        "data": "2023-02-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1197": {
+        "id": 1197,
+        "obra": 7,
+        "data": "2023-02-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1198": {
+        "id": 1198,
+        "obra": 7,
+        "data": "2023-02-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1199": {
+        "id": 1199,
+        "obra": 7,
+        "data": "2023-02-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1200": {
+        "id": 1200,
+        "obra": 7,
+        "data": "2023-02-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1201": {
+        "id": 1201,
+        "obra": 7,
+        "data": "2023-02-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1203": {
+        "id": 1203,
+        "obra": 7,
+        "data": "2023-02-24",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1204": {
+        "id": 1204,
+        "obra": 7,
+        "data": "2023-02-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1205": {
+        "id": 1205,
+        "obra": 8,
+        "data": "2023-02-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1206": {
+        "id": 1206,
+        "obra": 97,
+        "data": "2023-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1207": {
+        "id": 1207,
+        "obra": 7,
+        "data": "2023-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1208": {
+        "id": 1208,
+        "obra": 7,
+        "data": "2023-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1209": {
+        "id": 1209,
+        "obra": 7,
+        "data": "2023-03-01",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1210": {
+        "id": 1210,
+        "obra": 97,
+        "data": "2023-03-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1211": {
+        "id": 1211,
+        "obra": 7,
+        "data": "2023-03-02",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1212": {
+        "id": 1212,
+        "obra": 7,
+        "data": "2023-03-02",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1213": {
+        "id": 1213,
+        "obra": 7,
+        "data": "2023-03-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1214": {
+        "id": 1214,
+        "obra": 7,
+        "data": "2023-03-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1215": {
+        "id": 1215,
+        "obra": 7,
+        "data": "2023-03-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1216": {
+        "id": 1216,
+        "obra": 97,
+        "data": "2023-03-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1217": {
+        "id": 1217,
+        "obra": 7,
+        "data": "2023-03-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1218": {
+        "id": 1218,
+        "obra": 105,
+        "data": "2023-03-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1219": {
+        "id": 1219,
+        "obra": 7,
+        "data": "2023-03-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1221": {
+        "id": 1221,
+        "obra": 7,
+        "data": "2023-03-09",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1222": {
+        "id": 1222,
+        "obra": 7,
+        "data": "2023-03-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1224": {
+        "id": 1224,
+        "obra": 7,
+        "data": "2023-03-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1226": {
+        "id": 1226,
+        "obra": 97,
+        "data": "2023-03-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1227": {
+        "id": 1227,
+        "obra": 7,
+        "data": "2023-03-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1228": {
+        "id": 1228,
+        "obra": 7,
+        "data": "2023-03-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1230": {
+        "id": 1230,
+        "obra": 97,
+        "data": "2023-03-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1231": {
+        "id": 1231,
+        "obra": 7,
+        "data": "2023-03-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1232": {
+        "id": 1232,
+        "obra": 7,
+        "data": "2023-03-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1233": {
+        "id": 1233,
+        "obra": 7,
+        "data": "2023-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1235": {
+        "id": 1235,
+        "obra": 1,
+        "data": "2023-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1236": {
+        "id": 1236,
+        "obra": 1,
+        "data": "2023-03-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1237": {
+        "id": 1237,
+        "obra": 7,
+        "data": "2023-03-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1238": {
+        "id": 1238,
+        "obra": 7,
+        "data": "2023-03-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1239": {
+        "id": 1239,
+        "obra": 97,
+        "data": "2023-03-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1240": {
+        "id": 1240,
+        "obra": 7,
+        "data": "2023-03-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1241": {
+        "id": 1241,
+        "obra": 97,
+        "data": "2023-03-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1242": {
+        "id": 1242,
+        "obra": 7,
+        "data": "2023-03-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1243": {
+        "id": 1243,
+        "obra": 7,
+        "data": "2023-03-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1244": {
+        "id": 1244,
+        "obra": 7,
+        "data": "2023-03-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1245": {
+        "id": 1245,
+        "obra": 7,
+        "data": "2023-03-20",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1246": {
+        "id": 1246,
+        "obra": 7,
+        "data": "2023-03-21",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1247": {
+        "id": 1247,
+        "obra": 103,
+        "data": "2023-03-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1248": {
+        "id": 1248,
+        "obra": 8,
+        "data": "2023-03-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1249": {
+        "id": 1249,
+        "obra": 7,
+        "data": "2023-03-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1250": {
+        "id": 1250,
+        "obra": 7,
+        "data": "2023-03-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1251": {
+        "id": 1251,
+        "obra": 7,
+        "data": "2023-03-22",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1253": {
+        "id": 1253,
+        "obra": 7,
+        "data": "2023-03-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1254": {
+        "id": 1254,
+        "obra": 6,
+        "data": "2023-03-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1256": {
+        "id": 1256,
+        "obra": 7,
+        "data": "2023-03-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1257": {
+        "id": 1257,
+        "obra": 7,
+        "data": "2023-03-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1259": {
+        "id": 1259,
+        "obra": 97,
+        "data": "2023-03-30",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1260": {
+        "id": 1260,
+        "obra": 7,
+        "data": "2023-03-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1262": {
+        "id": 1262,
+        "obra": 97,
+        "data": "2023-04-04",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1263": {
+        "id": 1263,
+        "obra": 105,
+        "data": "2023-04-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1264": {
+        "id": 1264,
+        "obra": 7,
+        "data": "2023-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1265": {
+        "id": 1265,
+        "obra": 7,
+        "data": "2023-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1266": {
+        "id": 1266,
+        "obra": 7,
+        "data": "2023-04-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1267": {
+        "id": 1267,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1268": {
+        "id": 1268,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1269": {
+        "id": 1269,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1270": {
+        "id": 1270,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1271": {
+        "id": 1271,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1274": {
+        "id": 1274,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1275": {
+        "id": 1275,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1276": {
+        "id": 1276,
+        "obra": 7,
+        "data": "2023-04-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1277": {
+        "id": 1277,
+        "obra": 97,
+        "data": "2023-04-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1279": {
+        "id": 1279,
+        "obra": 7,
+        "data": "2023-04-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1280": {
+        "id": 1280,
+        "obra": 7,
+        "data": "2023-04-17",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1281": {
+        "id": 1281,
+        "obra": 7,
+        "data": "2023-04-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1282": {
+        "id": 1282,
+        "obra": 97,
+        "data": "2023-04-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1283": {
+        "id": 1283,
+        "obra": 7,
+        "data": "2023-04-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1284": {
+        "id": 1284,
+        "obra": 7,
+        "data": "2023-04-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1285": {
+        "id": 1285,
+        "obra": 7,
+        "data": "2023-04-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1286": {
+        "id": 1286,
+        "obra": 97,
+        "data": "2023-04-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1287": {
+        "id": 1287,
+        "obra": 7,
+        "data": "2023-04-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1289": {
+        "id": 1289,
+        "obra": 7,
+        "data": "2023-04-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1290": {
+        "id": 1290,
+        "obra": 7,
+        "data": "2023-04-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1292": {
+        "id": 1292,
+        "obra": 7,
+        "data": "2023-04-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1293": {
+        "id": 1293,
+        "obra": 7,
+        "data": "2023-05-03",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1294": {
+        "id": 1294,
+        "obra": 97,
+        "data": "2023-05-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1295": {
+        "id": 1295,
+        "obra": 7,
+        "data": "2023-05-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1296": {
+        "id": 1296,
+        "obra": 97,
+        "data": "2023-05-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1297": {
+        "id": 1297,
+        "obra": 7,
+        "data": "2023-05-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1298": {
+        "id": 1298,
+        "obra": 7,
+        "data": "2023-05-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1299": {
+        "id": 1299,
+        "obra": 97,
+        "data": "2023-05-08",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1300": {
+        "id": 1300,
+        "obra": 7,
+        "data": "2023-05-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1301": {
+        "id": 1301,
+        "obra": 97,
+        "data": "2023-05-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1302": {
+        "id": 1302,
+        "obra": 97,
+        "data": "2023-05-09",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1304": {
+        "id": 1304,
+        "obra": 97,
+        "data": "2023-05-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1305": {
+        "id": 1305,
+        "obra": 7,
+        "data": "2023-05-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1306": {
+        "id": 1306,
+        "obra": 7,
+        "data": "2023-05-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1307": {
+        "id": 1307,
+        "obra": 7,
+        "data": "2023-05-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1308": {
+        "id": 1308,
+        "obra": 97,
+        "data": "2023-05-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1309": {
+        "id": 1309,
+        "obra": 7,
+        "data": "2023-05-17",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1310": {
+        "id": 1310,
+        "obra": 97,
+        "data": "2023-05-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1314": {
+        "id": 1314,
+        "obra": 104,
+        "data": "2023-05-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1316": {
+        "id": 1316,
+        "obra": 97,
+        "data": "2023-05-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1317": {
+        "id": 1317,
+        "obra": 7,
+        "data": "2023-05-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1318": {
+        "id": 1318,
+        "obra": 7,
+        "data": "2023-05-19",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1319": {
+        "id": 1319,
+        "obra": 7,
+        "data": "2023-05-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1320": {
+        "id": 1320,
+        "obra": 7,
+        "data": "2023-05-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1322": {
+        "id": 1322,
+        "obra": 97,
+        "data": "2023-05-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1324": {
+        "id": 1324,
+        "obra": 7,
+        "data": "2023-02-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1325": {
+        "id": 1325,
+        "obra": 97,
+        "data": "2023-05-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1326": {
+        "id": 1326,
+        "obra": 7,
+        "data": "2023-05-29",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1327": {
+        "id": 1327,
+        "obra": 7,
+        "data": "2023-05-29",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1328": {
+        "id": 1328,
+        "obra": 7,
+        "data": "2023-05-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1332": {
+        "id": 1332,
+        "obra": 7,
+        "data": "2023-05-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1333": {
+        "id": 1333,
+        "obra": 7,
+        "data": "2023-05-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1334": {
+        "id": 1334,
+        "obra": 7,
+        "data": "2023-05-30",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1335": {
+        "id": 1335,
+        "obra": 7,
+        "data": "2023-05-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1336": {
+        "id": 1336,
+        "obra": 7,
+        "data": "2023-05-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1337": {
+        "id": 1337,
+        "obra": 7,
+        "data": "2023-06-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1338": {
+        "id": 1338,
+        "obra": 97,
+        "data": "2023-06-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1340": {
+        "id": 1340,
+        "obra": 7,
+        "data": "2023-06-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1341": {
+        "id": 1341,
+        "obra": 97,
+        "data": "2023-06-01",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1342": {
+        "id": 1342,
+        "obra": 7,
+        "data": "2023-06-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1343": {
+        "id": 1343,
+        "obra": 7,
+        "data": "2023-06-02",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1344": {
+        "id": 1344,
+        "obra": 7,
+        "data": "2023-06-05",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1347": {
+        "id": 1347,
+        "obra": 97,
+        "data": "2023-06-07",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1349": {
+        "id": 1349,
+        "obra": 97,
+        "data": "2023-06-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1350": {
+        "id": 1350,
+        "obra": 7,
+        "data": "2023-06-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1351": {
+        "id": 1351,
+        "obra": 7,
+        "data": "2023-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1352": {
+        "id": 1352,
+        "obra": 7,
+        "data": "2023-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1353": {
+        "id": 1353,
+        "obra": 7,
+        "data": "2023-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1354": {
+        "id": 1354,
+        "obra": 7,
+        "data": "2023-06-14",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1355": {
+        "id": 1355,
+        "obra": 97,
+        "data": "2023-06-14",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1357": {
+        "id": 1357,
+        "obra": 105,
+        "data": "2023-06-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1358": {
+        "id": 1358,
+        "obra": 97,
+        "data": "2023-06-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1359": {
+        "id": 1359,
+        "obra": 7,
+        "data": "2023-06-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1360": {
+        "id": 1360,
+        "obra": 7,
+        "data": "2023-06-15",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1361": {
+        "id": 1361,
+        "obra": 7,
+        "data": "2023-06-16",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1362": {
+        "id": 1362,
+        "obra": 7,
+        "data": "2023-06-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1363": {
+        "id": 1363,
+        "obra": 97,
+        "data": "2023-06-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1365": {
+        "id": 1365,
+        "obra": 97,
+        "data": "2023-06-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1367": {
+        "id": 1367,
+        "obra": 97,
+        "data": "2023-06-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1368": {
+        "id": 1368,
+        "obra": 7,
+        "data": "2023-06-21",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1369": {
+        "id": 1369,
+        "obra": 97,
+        "data": "2023-06-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1370": {
+        "id": 1370,
+        "obra": 7,
+        "data": "2023-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1371": {
+        "id": 1371,
+        "obra": 97,
+        "data": "2023-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1372": {
+        "id": 1372,
+        "obra": 7,
+        "data": "2023-06-22",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1374": {
+        "id": 1374,
+        "obra": 97,
+        "data": "2023-06-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1375": {
+        "id": 1375,
+        "obra": 7,
+        "data": "2023-06-23",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1376": {
+        "id": 1376,
+        "obra": 97,
+        "data": "2023-06-27",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1378": {
+        "id": 1378,
+        "obra": 97,
+        "data": "2023-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1379": {
+        "id": 1379,
+        "obra": 97,
+        "data": "2023-06-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1380": {
+        "id": 1380,
+        "obra": 7,
+        "data": "2023-06-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1381": {
+        "id": 1381,
+        "obra": 7,
+        "data": "2023-06-29",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1382": {
+        "id": 1382,
+        "obra": 97,
+        "data": "2023-06-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1383": {
+        "id": 1383,
+        "obra": 97,
+        "data": "2023-06-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1384": {
+        "id": 1384,
+        "obra": 7,
+        "data": "2023-06-30",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1386": {
+        "id": 1386,
+        "obra": 7,
+        "data": "2023-07-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1387": {
+        "id": 1387,
+        "obra": 97,
+        "data": "2023-07-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1388": {
+        "id": 1388,
+        "obra": 97,
+        "data": "2023-07-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1389": {
+        "id": 1389,
+        "obra": 97,
+        "data": "2023-07-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1390": {
+        "id": 1390,
+        "obra": 7,
+        "data": "2023-07-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1391": {
+        "id": 1391,
+        "obra": 97,
+        "data": "2023-07-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1393": {
+        "id": 1393,
+        "obra": 7,
+        "data": "2023-07-04",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1397": {
+        "id": 1397,
+        "obra": 7,
+        "data": "2023-07-05",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1398": {
+        "id": 1398,
+        "obra": 7,
+        "data": "2023-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1399": {
+        "id": 1399,
+        "obra": 7,
+        "data": "2023-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1400": {
+        "id": 1400,
+        "obra": 12,
+        "data": "2023-07-06",
+        "status": "PENDING",
+        "criado_por": "LUIGI"
+    },
+    "1401": {
+        "id": 1401,
+        "obra": 97,
+        "data": "2023-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1402": {
+        "id": 1402,
+        "obra": 97,
+        "data": "2023-07-06",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1405": {
+        "id": 1405,
+        "obra": 7,
+        "data": "2023-07-10",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1407": {
+        "id": 1407,
+        "obra": 7,
+        "data": "2023-07-10",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1413": {
+        "id": 1413,
+        "obra": 97,
+        "data": "2023-07-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1414": {
+        "id": 1414,
+        "obra": 112,
+        "data": "2023-07-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1416": {
+        "id": 1416,
+        "obra": 7,
+        "data": "2023-07-11",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1417": {
+        "id": 1417,
+        "obra": 97,
+        "data": "2023-07-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1418": {
+        "id": 1418,
+        "obra": 105,
+        "data": "2023-07-12",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "PALOMA"
+    },
+    "1419": {
+        "id": 1419,
+        "obra": 7,
+        "data": "2023-07-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1420": {
+        "id": 1420,
+        "obra": 7,
+        "data": "2023-07-13",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1421": {
+        "id": 1421,
+        "obra": 7,
+        "data": "2023-07-14",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1423": {
+        "id": 1423,
+        "obra": 97,
+        "data": "2023-07-17",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1424": {
+        "id": 1424,
+        "obra": 97,
+        "data": "2023-07-18",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1431": {
+        "id": 1431,
+        "obra": 8,
+        "data": "2023-07-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1433": {
+        "id": 1433,
+        "obra": 8,
+        "data": "2023-07-19",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1435": {
+        "id": 1435,
+        "obra": 7,
+        "data": "2023-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1436": {
+        "id": 1436,
+        "obra": 8,
+        "data": "2023-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1437": {
+        "id": 1437,
+        "obra": 7,
+        "data": "2023-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1438": {
+        "id": 1438,
+        "obra": 8,
+        "data": "2023-07-20",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1439": {
+        "id": 1439,
+        "obra": 12,
+        "data": "2023-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1440": {
+        "id": 1440,
+        "obra": 97,
+        "data": "2023-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1441": {
+        "id": 1441,
+        "obra": 7,
+        "data": "2023-07-21",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1442": {
+        "id": 1442,
+        "obra": 7,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1443": {
+        "id": 1443,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1444": {
+        "id": 1444,
+        "obra": 97,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1445": {
+        "id": 1445,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1446": {
+        "id": 1446,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1447": {
+        "id": 1447,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1448": {
+        "id": 1448,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1449": {
+        "id": 1449,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1450": {
+        "id": 1450,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1451": {
+        "id": 1451,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1453": {
+        "id": 1453,
+        "obra": 8,
+        "data": "2023-07-24",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1454": {
+        "id": 1454,
+        "obra": 7,
+        "data": "2023-07-25",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1455": {
+        "id": 1455,
+        "obra": 8,
+        "data": "2023-07-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1456": {
+        "id": 1456,
+        "obra": 7,
+        "data": "2023-07-25",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "SDR"
+    },
+    "1457": {
+        "id": 1457,
+        "obra": 7,
+        "data": "2023-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1458": {
+        "id": 1458,
+        "obra": 7,
+        "data": "2023-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1459": {
+        "id": 1459,
+        "obra": 8,
+        "data": "2023-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1461": {
+        "id": 1461,
+        "obra": 8,
+        "data": "2023-07-26",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1462": {
+        "id": 1462,
+        "obra": 8,
+        "data": "2023-07-26",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1463": {
+        "id": 1463,
+        "obra": 8,
+        "data": "2023-07-26",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1466": {
+        "id": 1466,
+        "obra": 8,
+        "data": "2023-07-27",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1467": {
+        "id": 1467,
+        "obra": 97,
+        "data": "2023-07-27",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIGI"
+    },
+    "1468": {
+        "id": 1468,
+        "obra": 97,
+        "data": "2023-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "ORCAMENTO"
+    },
+    "1469": {
+        "id": 1469,
+        "obra": 8,
+        "data": "2023-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1470": {
+        "id": 1470,
+        "obra": 8,
+        "data": "2023-07-28",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1472": {
+        "id": 1472,
+        "obra": 8,
+        "data": "2023-07-31",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1473": {
+        "id": 1473,
+        "obra": 8,
+        "data": "2023-07-31",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1474": {
+        "id": 1474,
+        "obra": 7,
+        "data": "2023-07-31",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "10"
+    },
+    "1475": {
+        "id": 1475,
+        "obra": 8,
+        "data": "2023-08-02",
+        "status": "PENDING",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1476": {
+        "id": 1476,
+        "obra": 8,
+        "data": "2023-08-03",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1477": {
+        "id": 1477,
+        "obra": 8,
+        "data": "2023-08-03",
+        "status": "FULLY_ATTENDED",
+        "criado_por": "LUIZLOURENCETTO"
+    },
+    "1478": {
+        "id": 1478,
+        "obra": 7,
+        "data": "2023-08-04",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1479": {
+        "id": 1479,
+        "obra": 7,
+        "data": "2023-08-04",
+        "status": "PENDING",
+        "criado_por": "10"
+    },
+    "1480": {
+        "id": 1480,
+        "obra": 7,
+        "data": "2023-08-04",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1481": {
+        "id": 1481,
+        "obra": 7,
+        "data": "2023-08-04",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1483": {
+        "id": 1483,
+        "obra": 7,
+        "data": "2023-08-07",
+        "status": "PENDING",
+        "criado_por": "EDUARDO"
+    },
+    "1484": {
+        "id": 1484,
+        "obra": 7,
+        "data": "2023-08-07",
+        "status": "PARTIALLY_ATTENDED",
+        "criado_por": "EDUARDO"
+    },
+    "1485": {
+        "id": 1485,
+        "obra": 7,
+        "data": "2023-08-07",
+        "status": "PENDING",
+        "criado_por": "10"
+    }
+}

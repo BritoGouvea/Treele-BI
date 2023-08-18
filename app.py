@@ -1,5 +1,7 @@
 import dash
-from dash import html
+from dash import html, dcc
+from dash.dependencies import Input, Output
+from treele_dados import Obra, Insumo, SolicitaçãoDeCompras, Item_SolicitaçãoDeCompras
 
 app = dash.Dash(__name__)
 
