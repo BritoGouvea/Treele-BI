@@ -32,13 +32,21 @@ def get_request(api_endpoint, offset = 0, count = 0):
     if count > len(DATA):
         get_request(api_endpoint, offset+200, count)
 
-get_request('/cost-databases/2/resources')
+buildingId = 4
+
+# get_request(f"/building-cost-estimations/{buildingId}/sheets")
+
+
+# building_unit_id = 4
+
+# get_request(f"/building-cost-estimations/{buildingId}/sheets/{building_unit_id}/items")
+
+get_request(f"/building-cost-estimations/{buildingId}/cost-estimate-resources")
 
 DATA
 
-with open('InsumosAtivos.json', 'w') as outfile:
+with open('Obra4_Sheet4_Resources.json', 'w') as outfile:
     json.dump(DATA, outfile, ensure_ascii=False, indent=4)
-
 # PurchaseRequestItems = json.load(open("PurchaseRequestsItems.json"))
 
 # PurchaseRequestIds = [item["purchaseRequestId"] for item in PurchaseRequestItems]

@@ -1,7 +1,15 @@
 from datetime import datetime
 import json
+import requests
+from requests.auth import HTTPBasicAuth
 from sienge_classes.Obras import Obra
 from sienge_classes.CustosUnitários import Insumo
+
+company = "treele"
+username = "treele-sistema-x"
+token = "hinUoLzppvsCqpIRt9blchboNPLGf4V4"
+baseURL = f"https://api.sienge.com.br/{company}/public/api/v1"
+auth = HTTPBasicAuth(username, token)
 
 class SolicitaçãoDeCompras:
 
@@ -45,6 +53,7 @@ class Item_SolicitaçãoDeCompras:
 
     def __init__(self, item: dict) -> None:
         self.solicitação_de_compra = SolicitaçãoDeCompras.solicitações[item['solicitação_de_compra']]
+        self.número = item['número']
         self.produto = Insumo.insumos[item['produto']]
         self.opção = item['opção']
         self.marca = item['marca']
@@ -55,6 +64,7 @@ class Item_SolicitaçãoDeCompras:
         else:
             data = None
         self.data_autorização = data
+        self.apropriações = item['apropriações']
     
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
@@ -64,6 +74,19 @@ class Item_SolicitaçãoDeCompras:
             data_dict['data_autorização'] = self.data_autorização.strftime('%Y-%m-%d')
         return data_dict
     
+    def get_building_apropriation(self) -> None:
+        
+        b_response = requests.get(
+            url=baseURL + f"/purchase-requests/{self.solicitação_de_compra.id}/items/{self.número}/buildings-appropriations",
+            auth=auth,
+            params={
+                "offset": 0,
+                "limit": 200
+            }
+        )
+        requestJson = json.loads(b_response.content.decode("utf-8"))
+        self.apropriações.extend(requestJson['results'])
+
     @staticmethod
     def criar_itens():
 
@@ -77,7 +100,7 @@ class Item_SolicitaçãoDeCompras:
 
     @staticmethod
     def salvar_itens():
-        lista_itens = { key: item.to_dict() for key, item in Item_SolicitaçãoDeCompras.itens.items() }
+        lista_itens = { f"{item.solicitação_de_compra.id}.{item.número}": item.to_dict() for key, item in Item_SolicitaçãoDeCompras.itens.items() }
         with open('./treele_dados/bases/ItensDeSolicitaçãoDeCompras.json', 'w') as outfile:
             json.dump(lista_itens, outfile, ensure_ascii=False, indent=4)
 

@@ -1,0 +1,2246 @@
+[
+    {
+        "id": "22",
+        "wbsCode": "00.001",
+        "workItemId": null,
+        "description": "CUSTOS ADMINISTRATIVOS DIRETOS E INDIRETOS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": []
+    },
+    {
+        "id": "117",
+        "wbsCode": "00.002",
+        "workItemId": null,
+        "description": "MÃO DE OBRA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 150306.93
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 67558.5
+            },
+            {
+                "category": "OTHER",
+                "unitPrice": 0.0,
+                "totalPrice": 500.0
+            }
+        ]
+    },
+    {
+        "id": "119",
+        "wbsCode": "00.002.000.001",
+        "workItemId": 612,
+        "description": "ISS",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 25528.5,
+        "totalPrice": 25528.5,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 25528.5,
+                "totalPrice": 25528.5
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "wbsCode": "00.002.001",
+        "workItemId": null,
+        "description": "DESPESAS ADMIN. DIRETAS - ÁGUA LUZ ALUGUEL DA OBRA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 5400.0
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "wbsCode": "00.002.001.001",
+        "workItemId": 590,
+        "description": "Consumo de Agua",
+        "unitOfMeasure": "vb",
+        "quantity": 6.0,
+        "unitPrice": 450.0,
+        "totalPrice": 2700.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 450.0,
+                "totalPrice": 2700.0
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "wbsCode": "00.002.001.002",
+        "workItemId": 591,
+        "description": "Consumo de Energia",
+        "unitOfMeasure": "vb",
+        "quantity": 6.0,
+        "unitPrice": 450.0,
+        "totalPrice": 2700.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 450.0,
+                "totalPrice": 2700.0
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "wbsCode": "00.002.002",
+        "workItemId": null,
+        "description": "DESPESAS ADMINISTR. DIRETAS GERAIS DA OBRA (M.O.)",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 150306.93
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 6330.0
+            }
+        ]
+    },
+    {
+        "id": "134",
+        "wbsCode": "00.002.002.001",
+        "workItemId": 80005,
+        "description": "Internet, Rádio e Telefonia",
+        "unitOfMeasure": "vb",
+        "quantity": 851.4,
+        "unitPrice": 0.0,
+        "totalPrice": 0.0,
+        "pricesByCategory": []
+    },
+    {
+        "id": "132",
+        "wbsCode": "00.002.002.002",
+        "workItemId": 80004,
+        "description": "Marketing",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 1380.0,
+        "totalPrice": 1380.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1380.0,
+                "totalPrice": 1380.0
+            }
+        ]
+    },
+    {
+        "id": "128",
+        "wbsCode": "00.002.002.003",
+        "workItemId": 80001,
+        "description": "Almoxarife",
+        "unitOfMeasure": "mes",
+        "quantity": 7.0,
+        "unitPrice": 2754.0,
+        "totalPrice": 19278.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 2754.0,
+                "totalPrice": 19278.0
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "wbsCode": "00.002.002.004",
+        "workItemId": 586,
+        "description": "Engenheiro de Obra",
+        "unitOfMeasure": "mes",
+        "quantity": 9.0,
+        "unitPrice": 5500.0,
+        "totalPrice": 49500.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 5500.0,
+                "totalPrice": 49500.0
+            }
+        ]
+    },
+    {
+        "id": "125",
+        "wbsCode": "00.002.002.005",
+        "workItemId": 610,
+        "description": "Vigia",
+        "unitOfMeasure": "mes",
+        "quantity": 6.0,
+        "unitPrice": 1200.0,
+        "totalPrice": 7200.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1200.0,
+                "totalPrice": 7200.0
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "wbsCode": "00.002.002.006",
+        "workItemId": 587,
+        "description": "Estagiário de Engenharia",
+        "unitOfMeasure": "mes",
+        "quantity": 9.0,
+        "unitPrice": 2000.0,
+        "totalPrice": 18000.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 2000.0,
+                "totalPrice": 18000.0
+            }
+        ]
+    },
+    {
+        "id": "116",
+        "wbsCode": "00.002.002.007",
+        "workItemId": 611,
+        "description": "Comprador",
+        "unitOfMeasure": "mes",
+        "quantity": 9.0,
+        "unitPrice": 4480.0,
+        "totalPrice": 40320.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 4480.0,
+                "totalPrice": 40320.0
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "wbsCode": "00.002.002.008",
+        "workItemId": 588,
+        "description": "Tecnico de Seguraça",
+        "unitOfMeasure": "mes",
+        "quantity": 9.0,
+        "unitPrice": 1000.0,
+        "totalPrice": 9000.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1000.0,
+                "totalPrice": 9000.0
+            }
+        ]
+    },
+    {
+        "id": "121",
+        "wbsCode": "00.002.002.009",
+        "workItemId": 1176,
+        "description": "Prevision",
+        "unitOfMeasure": "vb",
+        "quantity": 9.0,
+        "unitPrice": 778.77,
+        "totalPrice": 7008.93,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 778.77,
+                "totalPrice": 7008.93
+            }
+        ]
+    },
+    {
+        "id": "135",
+        "wbsCode": "00.002.002.010",
+        "workItemId": 1899,
+        "description": "Software -  Mobuss",
+        "unitOfMeasure": "mes",
+        "quantity": 9.0,
+        "unitPrice": 550.0,
+        "totalPrice": 4950.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 550.0,
+                "totalPrice": 4950.0
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "wbsCode": "00.002.003",
+        "workItemId": null,
+        "description": "Terreno",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 30300.0
+            },
+            {
+                "category": "OTHER",
+                "unitPrice": 0.0,
+                "totalPrice": 500.0
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "wbsCode": "00.002.003.001",
+        "workItemId": 596,
+        "description": "Corte e Aterro",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 20500.0,
+        "totalPrice": 20500.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 20500.0,
+                "totalPrice": 20500.0
+            }
+        ]
+    },
+    {
+        "id": "120",
+        "wbsCode": "00.002.003.002",
+        "workItemId": 80000,
+        "description": "Ensaio Proctor",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 500.0,
+        "totalPrice": 500.0,
+        "pricesByCategory": [
+            {
+                "category": "OTHER",
+                "unitPrice": 500.0,
+                "totalPrice": 500.0
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "wbsCode": "00.002.003.003",
+        "workItemId": 832,
+        "description": "Instalaçao de Canteiro de Obra",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 9800.0,
+        "totalPrice": 9800.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 9800.0,
+                "totalPrice": 9800.0
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "wbsCode": "00.003",
+        "workItemId": null,
+        "description": "FUNDAÇÕES",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 21840.71
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 62529.12
+            },
+            {
+                "category": "OTHER",
+                "unitPrice": 0.0,
+                "totalPrice": 4620.0
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "wbsCode": "00.003.001",
+        "workItemId": null,
+        "description": "RADIER",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 21840.71
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 62529.12
+            },
+            {
+                "category": "OTHER",
+                "unitPrice": 0.0,
+                "totalPrice": 4620.0
+            }
+        ]
+    },
+    {
+        "id": "131",
+        "wbsCode": "00.003.001.001",
+        "workItemId": 80003,
+        "description": "Ensaio de Concreto ",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 4620.0,
+        "totalPrice": 4620.0,
+        "pricesByCategory": [
+            {
+                "category": "OTHER",
+                "unitPrice": 4620.0,
+                "totalPrice": 4620.0
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "wbsCode": "00.003.001.002",
+        "workItemId": 826,
+        "description": "Execuçao de Forma para Radier",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 516.0051,
+        "totalPrice": 15996.15,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 323.6866,
+                "totalPrice": 10034.28
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 192.3185,
+                "totalPrice": 5961.87
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "wbsCode": "00.003.001.003",
+        "workItemId": 827,
+        "description": "Concretagem de Radier",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 2205.6024,
+        "totalPrice": 68373.68,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 380.8525,
+                "totalPrice": 11806.43
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1824.7499,
+                "totalPrice": 56567.25
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "wbsCode": "00.004",
+        "workItemId": null,
+        "description": "ESTRUTURAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 93847.74
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 145879.55
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "wbsCode": "00.004.001",
+        "workItemId": null,
+        "description": "ALVENARIA ESTRUTURAL EM BLOCO CERÂMICO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 60666.53
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 79750.85
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "wbsCode": "00.004.001.001",
+        "workItemId": 714,
+        "description": "Alvenaria Estrutural 12cm Casa",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 4089.0693,
+        "totalPrice": 126761.15,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1876.9848,
+                "totalPrice": 58186.53
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 2212.0845,
+                "totalPrice": 68574.62
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "wbsCode": "00.004.001.002",
+        "workItemId": 733,
+        "description": "Graute Alvenaria Estrutural",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 440.5237,
+        "totalPrice": 13656.23,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 80.0,
+                "totalPrice": 2480.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 360.5237,
+                "totalPrice": 11176.23
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "wbsCode": "00.004.002",
+        "workItemId": null,
+        "description": "LAJE PRÉ-MOLDADA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 33181.21
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 66128.7
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "wbsCode": "00.004.002.001",
+        "workItemId": 737,
+        "description": "Montagem de Laje Pre-Moldada",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 2133.3056,
+        "totalPrice": 66132.47,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 780.7616,
+                "totalPrice": 24203.61
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1352.544,
+                "totalPrice": 41928.86
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "wbsCode": "00.004.002.002",
+        "workItemId": 726,
+        "description": "Concretagem Laje Pre-moldada",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1070.24,
+        "totalPrice": 33177.44,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 289.6,
+                "totalPrice": 8977.6
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 780.64,
+                "totalPrice": 24199.84
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "wbsCode": "00.005",
+        "workItemId": null,
+        "description": "COBERTURAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 68075.09
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 108866.09
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "wbsCode": "00.005.001",
+        "workItemId": null,
+        "description": "OITÃO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 11439.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 26575.1
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "wbsCode": "00.005.001.001",
+        "workItemId": 778,
+        "description": "Oitao completo",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1226.2612,
+        "totalPrice": 38014.1,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 369.0,
+                "totalPrice": 11439.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 857.2612,
+                "totalPrice": 26575.1
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "wbsCode": "00.005.002",
+        "workItemId": null,
+        "description": "COBERTURA COM TELHA DE CERÂMICA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 16336.09
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 76090.99
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "wbsCode": "00.005.002.001",
+        "workItemId": 236,
+        "description": "Estrutura de madeira para telhado casas 45m2",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 1626.5108,
+        "totalPrice": 50421.83,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 461.9908,
+                "totalPrice": 14321.71
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1164.52,
+                "totalPrice": 36100.12
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "wbsCode": "00.005.002.002",
+        "workItemId": 235,
+        "description": "Telhamento com Telha Portuguesa",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1078.8,
+        "totalPrice": 33442.8,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1078.8,
+                "totalPrice": 33442.8
+            }
+        ]
+    },
+    {
+        "id": "51",
+        "wbsCode": "00.005.002.003",
+        "workItemId": 828,
+        "description": "Cumeeira com Emboço Telha Portuguesa",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 276.2082,
+        "totalPrice": 8562.45,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 64.98,
+                "totalPrice": 2014.38
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 211.2282,
+                "totalPrice": 6548.07
+            }
+        ]
+    },
+    {
+        "id": "52",
+        "wbsCode": "00.005.003",
+        "workItemId": null,
+        "description": "CALHAS GALVANIZADAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 40300.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 6200.0
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "wbsCode": "00.005.003.001",
+        "workItemId": 430,
+        "description": "Calhas e Rufos",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 1300.0,
+        "totalPrice": 40300.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1300.0,
+                "totalPrice": 40300.0
+            }
+        ]
+    },
+    {
+        "id": "114",
+        "wbsCode": "00.005.003.002",
+        "workItemId": 434,
+        "description": "Instalaçao de claraboia",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 200.0,
+        "totalPrice": 6200.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 200.0,
+                "totalPrice": 6200.0
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "wbsCode": "00.006",
+        "workItemId": null,
+        "description": "ACABAMENTOS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 213778.91
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 142080.63
+            }
+        ]
+    },
+    {
+        "id": "55",
+        "wbsCode": "00.006.001",
+        "workItemId": null,
+        "description": "ARGAMASSAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 94615.71
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 45674.65
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "wbsCode": "00.006.001.001",
+        "workItemId": 830,
+        "description": "Reboco Interno",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 469.2816,
+        "totalPrice": 14547.73,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 322.4016,
+                "totalPrice": 9994.45
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 146.88,
+                "totalPrice": 4553.28
+            }
+        ]
+    },
+    {
+        "id": "57",
+        "wbsCode": "00.006.001.002",
+        "workItemId": 831,
+        "description": "Reboco Externo",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1320.549,
+        "totalPrice": 40937.02,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1071.669,
+                "totalPrice": 33221.74
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 248.88,
+                "totalPrice": 7715.28
+            }
+        ]
+    },
+    {
+        "id": "111",
+        "wbsCode": "00.006.001.003",
+        "workItemId": 829,
+        "description": "Gesso Interno",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 2599.636,
+        "totalPrice": 80588.72,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1565.968,
+                "totalPrice": 48545.01
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1033.668,
+                "totalPrice": 32043.71
+            }
+        ]
+    },
+    {
+        "id": "58",
+        "wbsCode": "00.006.001.004",
+        "workItemId": 838,
+        "description": "Rejunte Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 136.0288,
+        "totalPrice": 4216.89,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 92.081,
+                "totalPrice": 2854.51
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 43.9478,
+                "totalPrice": 1362.38
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "wbsCode": "00.006.002",
+        "workItemId": null,
+        "description": "REVESTIMENTOS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 119163.2
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 96405.98
+            }
+        ]
+    },
+    {
+        "id": "60",
+        "wbsCode": "00.006.002.001",
+        "workItemId": 834,
+        "description": "Azulejos Casas",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1395.6808,
+        "totalPrice": 43266.11,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 784.3441,
+                "totalPrice": 24314.67
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 611.3367,
+                "totalPrice": 18951.44
+            }
+        ]
+    },
+    {
+        "id": "61",
+        "wbsCode": "00.006.002.002",
+        "workItemId": 836,
+        "description": "Piso Porcelanato Casas",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 2328.635,
+        "totalPrice": 72187.69,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 779.63,
+                "totalPrice": 24168.53
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1549.005,
+                "totalPrice": 48019.16
+            }
+        ]
+    },
+    {
+        "id": "62",
+        "wbsCode": "00.006.002.003",
+        "workItemId": 837,
+        "description": "Rodapé Ceramico",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 149.282,
+        "totalPrice": 4627.74,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 0.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 149.282,
+                "totalPrice": 4627.74
+            }
+        ]
+    },
+    {
+        "id": "63",
+        "wbsCode": "00.006.002.004",
+        "workItemId": 839,
+        "description": "Pintura Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1820.9464,
+        "totalPrice": 56449.34,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1615.0,
+                "totalPrice": 50065.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 205.9464,
+                "totalPrice": 6384.34
+            }
+        ]
+    },
+    {
+        "id": "64",
+        "wbsCode": "00.006.002.005",
+        "workItemId": 840,
+        "description": "Textura Projetada Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 1259.3,
+        "totalPrice": 39038.3,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 665.0,
+                "totalPrice": 20615.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 594.3,
+                "totalPrice": 18423.3
+            }
+        ]
+    },
+    {
+        "id": "65",
+        "wbsCode": "00.007",
+        "workItemId": null,
+        "description": "ESQUADRIAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 21855.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 66879.16
+            }
+        ]
+    },
+    {
+        "id": "66",
+        "wbsCode": "00.007.001",
+        "workItemId": null,
+        "description": "ESQUADRIAS DE ALUMINIO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 8370.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 53827.78
+            }
+        ]
+    },
+    {
+        "id": "67",
+        "wbsCode": "00.007.001.001",
+        "workItemId": 206,
+        "description": "Instalação de Esquadrias de Alumínio",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 2006.38,
+        "totalPrice": 62197.78,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 270.0,
+                "totalPrice": 8370.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1736.38,
+                "totalPrice": 53827.78
+            }
+        ]
+    },
+    {
+        "id": "68",
+        "wbsCode": "00.007.002",
+        "workItemId": null,
+        "description": "ESQUADRIAS DE MADEIRA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 13485.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 13051.38
+            }
+        ]
+    },
+    {
+        "id": "69",
+        "wbsCode": "00.007.002.001",
+        "workItemId": 781,
+        "description": "Instalações de Portas",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 856.0121,
+        "totalPrice": 26536.38,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 435.0,
+                "totalPrice": 13485.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 421.0121,
+                "totalPrice": 13051.38
+            }
+        ]
+    },
+    {
+        "id": "70",
+        "wbsCode": "00.008",
+        "workItemId": null,
+        "description": "HIDRAULICA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 21855.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 36223.25
+            }
+        ]
+    },
+    {
+        "id": "71",
+        "wbsCode": "00.008.001",
+        "workItemId": null,
+        "description": "AGUA FRIA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 8255.3
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 15514.69
+            }
+        ]
+    },
+    {
+        "id": "72",
+        "wbsCode": "00.008.001.001",
+        "workItemId": 250,
+        "description": "Agua fria casas",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 264.1538,
+        "totalPrice": 8188.77,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 6.8,
+                "totalPrice": 210.8
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 257.3538,
+                "totalPrice": 7977.97
+            }
+        ]
+    },
+    {
+        "id": "73",
+        "wbsCode": "00.008.001.002",
+        "workItemId": 251,
+        "description": "Instalaçao de Tubulação de Agua Fria Embutida Paredes",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 273.82,
+        "totalPrice": 8488.42,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 55.0,
+                "totalPrice": 1705.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 218.82,
+                "totalPrice": 6783.42
+            }
+        ]
+    },
+    {
+        "id": "74",
+        "wbsCode": "00.008.001.003",
+        "workItemId": 779,
+        "description": "Instalaçao de Tubulação de Agua Fria Aerea",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 228.8,
+        "totalPrice": 7092.8,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 204.5,
+                "totalPrice": 6339.5
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 24.3,
+                "totalPrice": 753.3
+            }
+        ]
+    },
+    {
+        "id": "75",
+        "wbsCode": "00.008.002",
+        "workItemId": null,
+        "description": "ESGOTO/PLUVIAL",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 3217.8
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 9888.01
+            }
+        ]
+    },
+    {
+        "id": "76",
+        "wbsCode": "00.008.002.001",
+        "workItemId": 252,
+        "description": "Esgoto casas",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 422.7681,
+        "totalPrice": 13105.81,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 103.8,
+                "totalPrice": 3217.8
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 318.9681,
+                "totalPrice": 9888.01
+            }
+        ]
+    },
+    {
+        "id": "78",
+        "wbsCode": "00.008.003",
+        "workItemId": null,
+        "description": "LOUÇAS/METAIS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 10381.9
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 10820.55
+            }
+        ]
+    },
+    {
+        "id": "129",
+        "wbsCode": "00.008.003.001",
+        "workItemId": 80002,
+        "description": "Mão de Obra - Instalação de Acabamentos Hidráulicos",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 129.9,
+        "totalPrice": 4026.9,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 129.9,
+                "totalPrice": 4026.9
+            }
+        ]
+    },
+    {
+        "id": "112",
+        "wbsCode": "00.008.003.002",
+        "workItemId": 414,
+        "description": "Instalação de tampo de granito preto sao gabriel (medida) com cuba oval embutida 400x300 mm",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 243.44,
+        "totalPrice": 7546.64,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 200.0,
+                "totalPrice": 6200.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 43.44,
+                "totalPrice": 1346.64
+            }
+        ]
+    },
+    {
+        "id": "80",
+        "wbsCode": "00.008.003.003",
+        "workItemId": 244,
+        "description": "Instalação de Bacia Sanitária com Caixa Acoplada",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 192.58,
+        "totalPrice": 5969.98,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 192.58,
+                "totalPrice": 5969.98
+            }
+        ]
+    },
+    {
+        "id": "81",
+        "wbsCode": "00.008.003.004",
+        "workItemId": 284,
+        "description": "Instalação de tanque plástico 13 L, branco, incluso acessórios",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 59.54,
+        "totalPrice": 1845.74,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 5.0,
+                "totalPrice": 155.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 54.54,
+                "totalPrice": 1690.74
+            }
+        ]
+    },
+    {
+        "id": "82",
+        "wbsCode": "00.008.003.005",
+        "workItemId": 431,
+        "description": "Instalaçao de torneira bica alta para lavatorio",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 42.73,
+        "totalPrice": 1324.63,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 42.73,
+                "totalPrice": 1324.63
+            }
+        ]
+    },
+    {
+        "id": "83",
+        "wbsCode": "00.008.003.006",
+        "workItemId": 432,
+        "description": "Instalaçao de torneira 1/2 para tanque",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 15.76,
+        "totalPrice": 488.56,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 15.76,
+                "totalPrice": 488.56
+            }
+        ]
+    },
+    {
+        "id": "84",
+        "wbsCode": "00.009",
+        "workItemId": null,
+        "description": "INSTALAÇÕES ELÉTRICAS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 15500.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 64562.55
+            }
+        ]
+    },
+    {
+        "id": "85",
+        "wbsCode": "00.009.001",
+        "workItemId": null,
+        "description": "CONDUITES/CABOS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 12400.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 22514.99
+            }
+        ]
+    },
+    {
+        "id": "86",
+        "wbsCode": "00.009.001.001",
+        "workItemId": 218,
+        "description": "Acabamento Eletrica",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 259.71,
+        "totalPrice": 8051.01,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 105.0,
+                "totalPrice": 3255.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 154.71,
+                "totalPrice": 4796.01
+            }
+        ]
+    },
+    {
+        "id": "87",
+        "wbsCode": "00.009.001.002",
+        "workItemId": 219,
+        "description": "Disjuntores casas",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 59.49,
+        "totalPrice": 1844.19,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 59.49,
+                "totalPrice": 1844.19
+            }
+        ]
+    },
+    {
+        "id": "88",
+        "wbsCode": "00.009.001.003",
+        "workItemId": 246,
+        "description": "Cabos Eletricos Casa",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 435.05,
+        "totalPrice": 13486.55,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 435.05,
+                "totalPrice": 13486.55
+            }
+        ]
+    },
+    {
+        "id": "89",
+        "wbsCode": "00.009.001.004",
+        "workItemId": 248,
+        "description": "Eletroduto PVC flexivel 3/4 - casas",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 205.0,
+        "totalPrice": 6355.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 170.0,
+                "totalPrice": 5270.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 35.0,
+                "totalPrice": 1085.0
+            }
+        ]
+    },
+    {
+        "id": "90",
+        "wbsCode": "00.009.001.005",
+        "workItemId": 249,
+        "description": "Conduite 1' Implantacao",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 47.04,
+        "totalPrice": 1458.24,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 40.0,
+                "totalPrice": 1240.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 7.04,
+                "totalPrice": 218.24
+            }
+        ]
+    },
+    {
+        "id": "91",
+        "wbsCode": "00.009.001.006",
+        "workItemId": 782,
+        "description": "Instalaçao de Conduites Eletricos - Embutidos Laje",
+        "unitOfMeasure": "vb",
+        "quantity": 31.0,
+        "unitPrice": 120.0,
+        "totalPrice": 3720.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 85.0,
+                "totalPrice": 2635.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 35.0,
+                "totalPrice": 1085.0
+            }
+        ]
+    },
+    {
+        "id": "92",
+        "wbsCode": "00.009.002",
+        "workItemId": null,
+        "description": "ALIMENTAÇAO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 3100.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 42047.56
+            }
+        ]
+    },
+    {
+        "id": "93",
+        "wbsCode": "00.009.002.001",
+        "workItemId": 247,
+        "description": "Cabos eletricos Alimentação",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 22626.4,
+        "totalPrice": 22626.4,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 3100.0,
+                "totalPrice": 3100.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 19526.4,
+                "totalPrice": 19526.4
+            }
+        ]
+    },
+    {
+        "id": "94",
+        "wbsCode": "00.009.002.002",
+        "workItemId": 261,
+        "description": "Padrão Entrada de Energia 2 casas",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 22521.163,
+        "totalPrice": 22521.16,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 22521.163,
+                "totalPrice": 22521.16
+            }
+        ]
+    },
+    {
+        "id": "95",
+        "wbsCode": "00.010",
+        "workItemId": null,
+        "description": "SERVIÇOS COMPLEMENTARES",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 194510.71
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 187072.59
+            }
+        ]
+    },
+    {
+        "id": "96",
+        "wbsCode": "00.010.001",
+        "workItemId": null,
+        "description": "PAISAGISMO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 2559.6
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 18421.62
+            }
+        ]
+    },
+    {
+        "id": "97",
+        "wbsCode": "00.010.001.001",
+        "workItemId": 255,
+        "description": "Plantio de Grama",
+        "unitOfMeasure": "m2",
+        "quantity": 2133.0,
+        "unitPrice": 8.3,
+        "totalPrice": 17703.9,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 1.2,
+                "totalPrice": 2559.6
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 7.1,
+                "totalPrice": 15144.3
+            }
+        ]
+    },
+    {
+        "id": "98",
+        "wbsCode": "00.010.001.002",
+        "workItemId": 456,
+        "description": "Kit paisagismo",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 105.72,
+        "totalPrice": 3277.32,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 105.72,
+                "totalPrice": 3277.32
+            }
+        ]
+    },
+    {
+        "id": "99",
+        "wbsCode": "00.010.002",
+        "workItemId": null,
+        "description": "MUROS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 90035.91
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 106370.94
+            }
+        ]
+    },
+    {
+        "id": "100",
+        "wbsCode": "00.010.002.001",
+        "workItemId": 858,
+        "description": "Estaca Escavação Mecanica Muros - Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 14114.52,
+        "totalPrice": 14114.52,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 4006.8,
+                "totalPrice": 4006.8
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 10107.72,
+                "totalPrice": 10107.72
+            }
+        ]
+    },
+    {
+        "id": "101",
+        "wbsCode": "00.010.002.002",
+        "workItemId": 859,
+        "description": "Viga Baldrame Muros - Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 25368.714,
+        "totalPrice": 25368.71,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 10092.6,
+                "totalPrice": 10092.6
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 15276.114,
+                "totalPrice": 15276.11
+            }
+        ]
+    },
+    {
+        "id": "102",
+        "wbsCode": "00.010.002.003",
+        "workItemId": 860,
+        "description": "Alvenaria Muros - Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 72693.27,
+        "totalPrice": 72693.27,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 24547.0236,
+                "totalPrice": 24547.02
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 48146.2464,
+                "totalPrice": 48146.25
+            }
+        ]
+    },
+    {
+        "id": "103",
+        "wbsCode": "00.010.002.004",
+        "workItemId": 861,
+        "description": "Reboco Muros - Unidade - un",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 43456.9123,
+        "totalPrice": 43456.91,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 29858.2123,
+                "totalPrice": 29858.21
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 13598.7,
+                "totalPrice": 13598.7
+            }
+        ]
+    },
+    {
+        "id": "104",
+        "wbsCode": "00.010.002.005",
+        "workItemId": 862,
+        "description": "Textura Muros - Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 40773.4355,
+        "totalPrice": 40773.44,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 21531.275,
+                "totalPrice": 21531.28
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 19242.1605,
+                "totalPrice": 19242.16
+            }
+        ]
+    },
+    {
+        "id": "105",
+        "wbsCode": "00.010.003",
+        "workItemId": null,
+        "description": "SERVIÇOS COMPLEMENTARES EXTERNOS",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 31888.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 37509.5
+            }
+        ]
+    },
+    {
+        "id": "106",
+        "wbsCode": "00.010.003.001",
+        "workItemId": 864,
+        "description": "Grades e Portões unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 2289.5,
+        "totalPrice": 2289.5,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 2289.5,
+                "totalPrice": 2289.5
+            }
+        ]
+    },
+    {
+        "id": "122",
+        "wbsCode": "00.010.003.002",
+        "workItemId": 1173,
+        "description": "Recreação",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 10000.0,
+        "totalPrice": 10000.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 10000.0,
+                "totalPrice": 10000.0
+            }
+        ]
+    },
+    {
+        "id": "115",
+        "wbsCode": "00.010.003.003",
+        "workItemId": 884,
+        "description": "Execução de Rede de Agua",
+        "unitOfMeasure": "m",
+        "quantity": 300.0,
+        "unitPrice": 26.16,
+        "totalPrice": 7848.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 26.16,
+                "totalPrice": 7848.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 0.0
+            }
+        ]
+    },
+    {
+        "id": "123",
+        "wbsCode": "00.010.003.004",
+        "workItemId": 1175,
+        "description": "Fossa",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 18600.0,
+        "totalPrice": 18600.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 18600.0,
+                "totalPrice": 18600.0
+            }
+        ]
+    },
+    {
+        "id": "130",
+        "wbsCode": "00.010.003.005",
+        "workItemId": 1288,
+        "description": "Execução de Rede de Drenagem",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 14040.0,
+        "totalPrice": 14040.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 14040.0,
+                "totalPrice": 14040.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 0.0
+            }
+        ]
+    },
+    {
+        "id": "124",
+        "wbsCode": "00.010.003.006",
+        "workItemId": 1174,
+        "description": "Conteçao de cheias",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 15000.0,
+        "totalPrice": 15000.0,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 10000.0,
+                "totalPrice": 10000.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 5000.0,
+                "totalPrice": 5000.0
+            }
+        ]
+    },
+    {
+        "id": "136",
+        "wbsCode": "00.010.003.007",
+        "workItemId": 80006,
+        "description": "Instalação de Churrasqueira",
+        "unitOfMeasure": "un",
+        "quantity": 31.0,
+        "unitPrice": 0.0,
+        "totalPrice": 0.0,
+        "pricesByCategory": []
+    },
+    {
+        "id": "137",
+        "wbsCode": "00.010.003.008",
+        "workItemId": 2222,
+        "description": "Instalaçao de Lixeira Coletiva 1,88x0,87x0,90m",
+        "unitOfMeasure": "unid",
+        "quantity": 1.0,
+        "unitPrice": 1000.0,
+        "totalPrice": 1000.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 1000.0,
+                "totalPrice": 1000.0
+            }
+        ]
+    },
+    {
+        "id": "138",
+        "wbsCode": "00.010.003.009",
+        "workItemId": 80007,
+        "description": "Instalaçao de numeraçao predial",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 20.0,
+        "totalPrice": 620.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 20.0,
+                "totalPrice": 620.0
+            }
+        ]
+    },
+    {
+        "id": "107",
+        "wbsCode": "00.010.004",
+        "workItemId": null,
+        "description": "PAVIMENTAÇAO",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 0.0,
+                "totalPrice": 70027.2
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 15955.53
+            }
+        ]
+    },
+    {
+        "id": "108",
+        "wbsCode": "00.010.004.001",
+        "workItemId": 863,
+        "description": "Calçada em Concreto - Unidade",
+        "unitOfMeasure": "un",
+        "quantity": 1.0,
+        "unitPrice": 23755.38,
+        "totalPrice": 23755.38,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 9900.0,
+                "totalPrice": 9900.0
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 13855.38,
+                "totalPrice": 13855.38
+            }
+        ]
+    },
+    {
+        "id": "113",
+        "wbsCode": "00.010.004.002",
+        "workItemId": 883,
+        "description": "Pavimentaçao asfaltica completa",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 62227.35,
+        "totalPrice": 62227.35,
+        "pricesByCategory": [
+            {
+                "category": "LABOR",
+                "unitPrice": 60127.2,
+                "totalPrice": 60127.2
+            },
+            {
+                "category": "MATERIAL",
+                "unitPrice": 2100.15,
+                "totalPrice": 2100.15
+            }
+        ]
+    },
+    {
+        "id": "109",
+        "wbsCode": "00.010.005",
+        "workItemId": null,
+        "description": "LIMPEZA",
+        "unitOfMeasure": null,
+        "quantity": null,
+        "unitPrice": null,
+        "totalPrice": null,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 0.0,
+                "totalPrice": 8815.0
+            }
+        ]
+    },
+    {
+        "id": "133",
+        "wbsCode": "00.010.005.001",
+        "workItemId": 1325,
+        "description": "Retirada de Entulhos em Caçambas",
+        "unitOfMeasure": "vb",
+        "quantity": 1.0,
+        "unitPrice": 4940.0,
+        "totalPrice": 4940.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 4940.0,
+                "totalPrice": 4940.0
+            }
+        ]
+    },
+    {
+        "id": "110",
+        "wbsCode": "00.010.005.002",
+        "workItemId": 450,
+        "description": "Limpeza final de obra",
+        "unitOfMeasure": "unid",
+        "quantity": 31.0,
+        "unitPrice": 125.0,
+        "totalPrice": 3875.0,
+        "pricesByCategory": [
+            {
+                "category": "MATERIAL",
+                "unitPrice": 125.0,
+                "totalPrice": 3875.0
+            }
+        ]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "description": "Terreno",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 2,
+        "description": "Serviços Tecnicos",
+        "status": "LOCKED"
+    },
+    {
+        "id": 3,
+        "description": "Documentação",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 4,
+        "description": "Obra",
+        "status": "LOCKED"
+    },
+    {
+        "id": 5,
+        "description": "Documentação Empreendimento",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 6,
+        "description": "Impostos",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 7,
+        "description": "Vendas",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 8,
+        "description": "Marketing",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 9,
+        "description": "Pos Obra",
+        "status": "LOCKED"
+    },
+    {
+        "id": 10,
+        "description": "Distribuiçao de Lucros",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 11,
+        "description": "Devoluções (Distratos e Investidores)",
+        "status": "UNLOCKED"
+    },
+    {
+        "id": 20,
+        "description": "Reembolsos",
+        "status": "UNLOCKED"
+    }
+]
