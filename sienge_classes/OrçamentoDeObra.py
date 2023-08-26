@@ -8,9 +8,9 @@ from sienge_classes.Insumos import Insumo
 class Orçamento:
     
     def __init__(self, orçamento: dict) -> None:
-        self.obra = Obra.obras[orçamento['obra']]
-        self.path = orçamento['path']
-        # self.insumos = { int(key): Insumo(insumo) for key, insumo in orçamento['insumos'].items() } if orçamento['insumos'] else Orçamento.carregar_insumos(self.obra)
+        self.obra = orçamento['obra']
+        self.path = f'./dados/obras/obra_{self.obra.id}'
+        self.insumos = { int(key): Insumo(insumo) for key, insumo in orçamento['insumos'].items() } if orçamento['insumos'] else Orçamento.carregar_insumos(self.obra)
         # self.planilhas = { int(key): Planilha(self.obra, self.insumos, planilha) for key, planilha in orçamento['planilhas'].items() } if orçamento['planilhas'] else Orçamento.carregar_planilhas(self.obra)
 
     def __repr__(self) -> str:

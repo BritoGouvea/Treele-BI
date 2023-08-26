@@ -1,7 +1,7 @@
 from datetime import datetime
 import json
 import requests
-from sienge_classes.DadosLogin import baseURL, auth
+from sienge_classes import baseURL, auth
 from sienge_classes.Obras import Obra
 from sienge_classes.Insumos import Insumo
 

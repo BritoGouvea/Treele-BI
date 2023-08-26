@@ -153,4 +153,6 @@ cython_debug/
 
 # test_files
 
-# dados/
+dados/obras
+dados/bases
+dados/sienge_consultas

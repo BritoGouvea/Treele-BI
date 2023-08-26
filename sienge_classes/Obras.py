@@ -2,7 +2,7 @@ from datetime import datetime
 import requests
 import json
 import os
-from sienge_classes import get_lists_from_sienge, baseURL, company
+from sienge_classes import get_lists_from_sienge, baseURL
 
 class Obra:
 
@@ -63,11 +63,12 @@ class Obra:
         url = baseURL + f"/enterprises"
         obras = []
         get_lists_from_sienge(obras, url)
-        return { obra['id']: Obra(Obra.traduzir(obra)) for obra in obras }
+        obras_dict = { obra['id']: Obra(Obra.traduzir(obra)) for obra in obras }
+        Obra.salvar(obras_dict)
+        return obras_dict
 
     @staticmethod
-    def salvar():
-        obras = { key: obra.to_dict() for key, obra in Obra.obras.items() }
+    def salvar(obras: dict):
         with open(f'./dados/bases/Obras.json', 'w') as outfile:
             json.dump(obras, outfile, ensure_ascii=False, indent=4)
     
