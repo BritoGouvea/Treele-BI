@@ -1,15 +1,9 @@
 from datetime import datetime
 import json
 import requests
-from requests.auth import HTTPBasicAuth
+from sienge_classes.DadosLogin import baseURL, auth
 from sienge_classes.Obras import Obra
-from sienge_classes.CustosUnitários import Insumo
-
-company = "treele"
-username = "treele-sistema-x"
-token = "hinUoLzppvsCqpIRt9blchboNPLGf4V4"
-baseURL = f"https://api.sienge.com.br/{company}/public/api/v1"
-auth = HTTPBasicAuth(username, token)
+from sienge_classes.Insumos import Insumo
 
 class SolicitaçãoDeCompras:
 
@@ -31,7 +25,7 @@ class SolicitaçãoDeCompras:
         return data_dict
     
     @staticmethod
-    def criar_solicitações():
+    def criar():
 
         def cria_e_anexa(solicitação_dict: dict) -> SolicitaçãoDeCompras:
             solicitação = SolicitaçãoDeCompras(solicitação_dict)
@@ -42,7 +36,7 @@ class SolicitaçãoDeCompras:
         SolicitaçãoDeCompras.solicitações = { int(key): cria_e_anexa(solicitação) for key, solicitação in lista_solicitações.items() }
 
     @staticmethod
-    def salvar_solicitações():
+    def salvar():
         lista_solicitações = { key: solicitação.to_dict() for key, solicitação in SolicitaçãoDeCompras.solicitações.items() }
         with open('./treele_dados/bases/SolicitaçõesDeCompras.json', 'w') as outfile:
             json.dump(lista_solicitações, outfile, ensure_ascii=False, indent=4)
@@ -88,7 +82,7 @@ class Item_SolicitaçãoDeCompras:
         self.apropriações.extend(requestJson['results'])
 
     @staticmethod
-    def criar_itens():
+    def criar():
 
         def cria_e_anexa(item_solicitação_dict: dict) -> Item_SolicitaçãoDeCompras:
             item_solicitação = Item_SolicitaçãoDeCompras(item_solicitação_dict)
@@ -99,13 +93,13 @@ class Item_SolicitaçãoDeCompras:
         Item_SolicitaçãoDeCompras.itens = { key: cria_e_anexa(item) for key, item in lista_itens.items() }
 
     @staticmethod
-    def salvar_itens():
+    def salvar():
         lista_itens = { f"{item.solicitação_de_compra.id}.{item.número}": item.to_dict() for key, item in Item_SolicitaçãoDeCompras.itens.items() }
         with open('./treele_dados/bases/ItensDeSolicitaçãoDeCompras.json', 'w') as outfile:
             json.dump(lista_itens, outfile, ensure_ascii=False, indent=4)
 
     @staticmethod
-    def traduzir_purchaseRequestItem(item: dict):
+    def traduzir(item: dict):
         return {
             'solicitação_de_compra': item['purchaseRequestId'],
             'produto': item['productId'],

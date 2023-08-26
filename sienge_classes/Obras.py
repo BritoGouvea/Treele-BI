@@ -1,10 +1,10 @@
 from datetime import datetime
 import requests
 import json
+import os
+from sienge_classes import get_lists_from_sienge, baseURL, company
 
 class Obra:
-
-    obras = None
 
     def __init__(self, obra: dict) -> None:
         self.id = obra['id']
@@ -20,23 +20,22 @@ class Obra:
             else:
                 self.coordenadas = None
         self.data = datetime.fromisoformat(obra['data'])
+        self.orçamento = None
         self.solicitações = []
+        Obra.path(self.id)
 
     def to_dict(self) -> dict:
-        return {
-            'id': self.id,
-            'nome': self.nome,
-            'cnpj': self.cnpj,
-            'endereço': self.endereço,
-            'coordenadas': {
-                'latitude': self.coordenadas.latitude,
-                'longitude': self.coordenadas.longitude
-            },
-            'data': self.data.strftime('%Y-%m-%d')
-        }
+        data_dict = self.__dict__.copy()
+        data_dict['coordenadas'] = self.coordenadas.__dict__
+        data_dict.pop('solicitações')
+        data_dict.pop('orçamento')
+        return data_dict
+
+    def __repr__(self) -> str:
+        return f"< {self.id} - {self.nome} >"
 
     @staticmethod
-    def traduzir_enterprise(enterprise):
+    def traduzir(enterprise):
         return {
             'id': enterprise['id'],
             'nome': enterprise['name'],
@@ -45,16 +44,31 @@ class Obra:
             'data': enterprise['creationDate'],
             'coordenadas': None
         }
+    @staticmethod
+    def path(id_obra: int) -> str:
+        raiz = os.getcwd()
+        diretorioObra = os.path.join(raiz, f"dados/obras/obra_{id_obra}")
+        diretorioExiste = os.path.exists(diretorioObra)
+        if not diretorioExiste:
+            os.mkdir(diretorioObra)
+        return diretorioObra
+        
+    @staticmethod
+    def abrir() -> dict:
+        obras = json.load(open(f'./dados/bases/Obras.json'))
+        return { int(key): Obra(obra) for key, obra in obras.items() }
     
     @staticmethod
-    def criar_obras() -> None:
-        obras = json.load(open('./treele_dados/bases/Obras.json'))
-        Obra.obras = { int(key): Obra(obra) for key, obra in obras.items() }
-    
+    def carregar() -> dict:
+        url = baseURL + f"/enterprises"
+        obras = []
+        get_lists_from_sienge(obras, url)
+        return { obra['id']: Obra(Obra.traduzir(obra)) for obra in obras }
+
     @staticmethod
-    def salvar_obras_tojson():
+    def salvar():
         obras = { key: obra.to_dict() for key, obra in Obra.obras.items() }
-        with open('./treele_dados/bases/Obras.json', 'w') as outfile:
+        with open(f'./dados/bases/Obras.json', 'w') as outfile:
             json.dump(obras, outfile, ensure_ascii=False, indent=4)
     
 class Coordenadas:
