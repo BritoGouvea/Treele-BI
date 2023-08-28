@@ -1,8 +1,8 @@
 import dash
 from dash import html, dcc
 from dash.dependencies import Input, Output
+
 from dados import obras
-from sienge_classes.OrçamentoDeObra import Orçamento
 
 # app = dash.Dash(__name__)
 
@@ -15,7 +15,6 @@ from sienge_classes.OrçamentoDeObra import Orçamento
 # if __name__ == '__main__':
 #     app.run_server(debug=True)
 
-orçamento_tjm = Orçamento.carregar("./treele_dados/bases/orçamento_obra_8.json")
 # orçamento_tjm = Orçamento({
 #     'obra': 8,
 #     'insumos': [],
@@ -23,3 +22,7 @@ orçamento_tjm = Orçamento.carregar("./treele_dados/bases/orçamento_obra_8.jso
 # })
 
 # orçamento_tjm.salvar()
+
+tjm = obras[8]
+
+tjm.criar_orçamento()

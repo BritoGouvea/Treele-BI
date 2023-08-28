@@ -1,6 +1,5 @@
 import json
 from sienge_classes import get_lists_from_sienge, baseURL
-from sienge_classes.Obras import Obra
 
 class GrupoDeRecursos:
 
@@ -57,15 +56,23 @@ class Insumo:
         }
     
     @staticmethod
-    def criar(obra: Obra):
+    def abrir(obra):
         lista_insumos = json.load(open(f'./dados/obras/obra_{obra.id}/Insumos.json'))
         Insumo.insumos = { int(key): Insumo(insumo) for key, insumo in lista_insumos.items() }
 
     @staticmethod
-    def salvar_insumos(obra: Obra):
-        lista_insumos = { key: insumo.to_dict() for key, insumo in Insumo.insumos.items() }
+    def carregar(obra) -> dict:
+        url = baseURL + f"/building-cost-estimations/{id}/resources"
+        insumos = []
+        get_lists_from_sienge(insumos, url)
+        insumosDaObra = { insumo['id']: Insumo(Insumo.traduzir(insumo)) for insumo in insumos }
+        Insumo.salvar_insumos(obra.id, { key: insumo.to_dict() for key, insumo in insumosDaObra.items() })
+        return insumosDaObra
+
+    @staticmethod
+    def salvar_insumos(obra, insumos: dict):
         with open(f'./dados/obras/obra_{obra.id}/Insumos.json', 'w') as outfile:
-            json.dump(lista_insumos, outfile, ensure_ascii=False, indent=4)
+            json.dump(insumos, outfile, ensure_ascii=False, indent=4)
 
 class InsumoGeral(Insumo):
 

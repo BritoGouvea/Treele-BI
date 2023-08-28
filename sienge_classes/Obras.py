@@ -2,7 +2,8 @@ from datetime import datetime
 import requests
 import json
 import os
-from sienge_classes import get_lists_from_sienge, baseURL
+from sienge_classes import Caminho, get_lists_from_sienge, baseURL
+from sienge_classes.OrçamentoDeObra import Orçamento
 
 class Obra:
 
@@ -22,7 +23,7 @@ class Obra:
         self.data = datetime.fromisoformat(obra['data'])
         self.orçamento = None
         self.solicitações = []
-        Obra.path(self.id)
+        self.criar_pasta(self.id)
 
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
@@ -34,43 +35,25 @@ class Obra:
     def __repr__(self) -> str:
         return f"< {self.id} - {self.nome} >"
 
-    @staticmethod
-    def traduzir(enterprise):
-        return {
-            'id': enterprise['id'],
-            'nome': enterprise['name'],
-            'cnpj': enterprise['cnpj'],
-            'endereço': enterprise['adress'],
-            'data': enterprise['creationDate'],
-            'coordenadas': None
-        }
-    @staticmethod
-    def path(id_obra: int) -> str:
-        raiz = os.getcwd()
-        diretorioObra = os.path.join(raiz, f"dados/obras/obra_{id_obra}")
-        diretorioExiste = os.path.exists(diretorioObra)
-        if not diretorioExiste:
-            os.mkdir(diretorioObra)
-        return diretorioObra
-        
-    @staticmethod
-    def abrir() -> dict:
-        obras = json.load(open(f'./dados/bases/Obras.json'))
-        return { int(key): Obra(obra) for key, obra in obras.items() }
-    
-    @staticmethod
-    def carregar() -> dict:
-        url = baseURL + f"/enterprises"
-        obras = []
-        get_lists_from_sienge(obras, url)
-        obras_dict = { obra['id']: Obra(Obra.traduzir(obra)) for obra in obras }
-        Obra.salvar(obras_dict)
-        return obras_dict
+    def criar_orçamento(self):
+        self.orçamento = Orçamento(self)
 
-    @staticmethod
-    def salvar(obras: dict):
-        with open(f'./dados/bases/Obras.json', 'w') as outfile:
-            json.dump(obras, outfile, ensure_ascii=False, indent=4)
+    def criar_pasta(self, id) -> str:
+        diretorioObra = Caminho(id)
+        diretorioExiste = os.path.exists(diretorioObra.raiz)
+        if not diretorioExiste:
+            os.mkdir(diretorioObra.raiz)
+        return diretorioObra
+
+def traduzir(enterprise):
+    return {
+        'id': enterprise['id'],
+        'nome': enterprise['name'],
+        'cnpj': enterprise['cnpj'],
+        'endereço': enterprise['adress'],
+        'data': enterprise['creationDate'],
+        'coordenadas': None
+    }
     
 class Coordenadas:
 
@@ -98,3 +81,19 @@ class Coordenadas:
             return Coordenadas(coordenadas)
         else:
             return None
+
+def abrir() -> dict:
+    obras = json.load(open(f'./dados/bases/Obras.json'))
+    return { int(key): Obra(obra) for key, obra in obras.items() }
+
+def carregar() -> dict:
+    url = baseURL + f"/enterprises"
+    obras = []
+    get_lists_from_sienge(obras, url)
+    obras_dict = { obra['id']: Obra(traduzir(obra)) for obra in obras }
+    salvar(obras_dict)
+    return obras_dict
+
+def salvar(obras: dict):
+    with open(f'./dados/bases/Obras.json', 'w') as outfile:
+        json.dump(obras, outfile, ensure_ascii=False, indent=4)

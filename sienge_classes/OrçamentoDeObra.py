@@ -1,17 +1,16 @@
 import json
 import requests
 import os
-from sienge_classes.DadosLogin import baseURL, auth
-from sienge_classes.Obras import Obra
+from sienge_classes import Caminho, get_lists_from_sienge, baseURL, auth
 from sienge_classes.Insumos import Insumo
 
 class Orçamento:
-    
-    def __init__(self, orçamento: dict) -> None:
-        self.obra = orçamento['obra']
-        self.path = f'./dados/obras/obra_{self.obra.id}'
-        self.insumos = { int(key): Insumo(insumo) for key, insumo in orçamento['insumos'].items() } if orçamento['insumos'] else Orçamento.carregar_insumos(self.obra)
-        # self.planilhas = { int(key): Planilha(self.obra, self.insumos, planilha) for key, planilha in orçamento['planilhas'].items() } if orçamento['planilhas'] else Orçamento.carregar_planilhas(self.obra)
+
+    def __init__(self, obra) -> None:
+        self.obra = obra
+        self.caminho = Caminho(self.obra.id)
+        self.insumos = Insumo.abrir(self.obra) if os.path.exists(self.caminho.insumos) else Insumo.carregar(self.obra)
+        self.planilhas = Planilha.abrir(self.obra) if os.path.exists(self.caminho.planilhas) else Planilha.carregar(self.obra)
 
     def __repr__(self) -> str:
         return f"< Orçamento da obra: {self.obra.id} - {self.obra.nome} >" 
@@ -23,70 +22,16 @@ class Orçamento:
         data_dict['insumos'] = { key: insumo.to_dict() for key, insumo in self.insumos.items() }
         return data_dict
 
-    def salvar(self):
-        with open(f'./treele_dados/bases/orçamento_obra_{self.obra.id}.json', 'w') as outfile:
-            json.dump(self.to_dict(), outfile, ensure_ascii=False, indent=4)
-
-    @staticmethod
-    def carregar(arquivo: str):
-        orçamento_json = json.load(open(arquivo))
-        return Orçamento(orçamento_json)
-
-    @staticmethod
-    def carregar_planilhas(obra: Obra) -> list:
-
-        def get_sheets(planilhas: list, url: str, offset: int = 0) -> list:
-            b_response = requests.get(
-                url=url,
-                auth=auth,
-                params={
-                    "offset": 0,
-                    "limit": 200
-                }
-            )
-            requestJson = json.loads(b_response.content.decode("utf-8"))
-            planilhas.extend(requestJson['results'])
-
-            if len(planilhas) < requestJson['resultSetMetadata']['count']:
-                get_sheets(planilhas, url, offset + 200)
-
-        url = baseURL + f"/building-cost-estimations/{obra.id}/sheets"
-        planilhas = []
-        get_sheets(planilhas, url)
-        return { planilha['id']: Planilha(obra, Planilha.traduzir(planilha)) for planilha in planilhas }
-
-    @staticmethod
-    def carregar_insumos(obra: Obra) -> list:
-
-        def get_resources(insumos: list, url: str, offset: int = 0) -> list:
-            b_response = requests.get(
-                url=url,
-                auth=auth,
-                params={
-                    "offset": 0,
-                    "limit": 200
-                }
-            )
-            requestJson = json.loads(b_response.content.decode("utf-8"))
-            insumos.extend(requestJson['results'])
-
-            if len(insumos) < requestJson['resultSetMetadata']['count']:
-                get_resources(insumos, url, offset + 200)
-
-        url = baseURL + f"/building-cost-estimations/{obra.id}/resources"
-        insumos = []
-        get_resources(insumos, url)
-        return { insumo['id']: Insumo(Insumo.traduzir(insumo)) for insumo in insumos }
-
 class Planilha:
 
-    def __init__(self, obra: Obra, insumos: dict, planilha: dict) -> None:
+    def __init__(self, obra, planilha: dict) -> None:
         self.obra = obra
         self.id = int(planilha['id'])
         self.descrição = planilha['descrição']
         self.status = planilha['status']
-        self.itens = { key: Itens_Planilha(insumos, item) for key, item in planilha['itens'].items() } if planilha['itens'] else Planilha.pegar_itens(self.obra, insumos, self.id)
-        Planilha.pegar_recursos(self.obra, insumos, self.id, self.itens)
+        self.itens = {}
+        # self.itens = { key: Itens_Planilha(insumos, item) for key, item in planilha['itens'].items() } if planilha['itens'] else Planilha.pegar_itens(self.obra, insumos, self.id)
+        # Planilha.pegar_recursos(self.obra, insumos, self.id, self.itens)
 
     def __repr__(self) -> str:
         return f"< Planilha: {self.id} - {self.descrição} >"
@@ -98,30 +43,26 @@ class Planilha:
         return data_dict
 
     @staticmethod
-    def pegar_itens(obra: Obra, insumos: dict, id: int) -> dict:
+    def abrir(obra) -> dict:
+        planilhas = json.load(open(f'./dados/obras/obra_{obra.id}/Insumos.json'))
+        return { int(key): Planilha(planilha) for key, planilha in planilhas.items() }
 
-        def get_items(itens: list, url: str, offset: int = 0) -> None:
-            b_response = requests.get(
-                url=url,
-                auth=auth,
-                params={
-                    "offset": offset,
-                    "limit": 200
-                }
-            )
-            requestJson = json.loads(b_response.content.decode("utf-8"))
-            itens.extend(requestJson['results'])
-
-            if len(itens) < requestJson['resultSetMetadata']['count']:
-                get_items(itens= itens, url= url, offset= offset + 200)
-
-        url=baseURL + f"/building-cost-estimations/{obra.id}/sheets/{id}/items"
-        itens = []
-        get_items(itens= itens, url= url)
-        return { item['wbsCode']: Itens_Planilha(insumos, Itens_Planilha.traduzir(item)) for item in itens }
+    @staticmethod
+    def carregar(obra) -> dict:
+        url = baseURL + f"/building-cost-estimations/{obra.id}/sheets"
+        planilhas = []
+        get_lists_from_sienge(planilhas, url)
+        planilhas_dict = { planilha['id']: Planilha(obra, Planilha.traduzir(planilha)) for planilha in planilhas }
+        Planilha.salvar(obra , { key: insumo.to_dict() for key, insumo in planilhas_dict.items() })
+        return planilhas_dict
     
     @staticmethod
-    def pegar_recursos(obra: Obra, insumos: dict, id_planilha: int, itens: dict) -> None:
+    def salvar(obra, planilhas: dict):
+        with open(f'./dados/obras/obra_{obra.id}/Planilhas.json', 'w') as outfile:
+            json.dump(planilhas, outfile, ensure_ascii=False, indent=4)
+    
+    @staticmethod
+    def pegar_recursos(obra, insumos: dict, id_planilha: int, itens: dict) -> None:
 
         for value in itens.values():
             if value.recursos:
