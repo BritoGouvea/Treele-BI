@@ -1,6 +1,6 @@
-import dash
-from dash import html, dcc
-from dash.dependencies import Input, Output
+# import dash
+# from dash import html, dcc
+# from dash.dependencies import Input, Output
 
 from dados import obras
 
@@ -26,3 +26,5 @@ from dados import obras
 tjm = obras[8]
 
 tjm.criar_orçamento()
+
+eap = tjm.orçamento.planilhas[4].eap

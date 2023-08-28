@@ -1,7 +1,6 @@
 import json
-import requests
 import os
-from sienge_classes import Caminho, get_lists_from_sienge, baseURL, auth
+from sienge_classes import Caminho, get_lists_from_sienge, baseURL
 from sienge_classes.Insumos import Insumo
 
 class Orçamento:
@@ -11,6 +10,7 @@ class Orçamento:
         self.caminho = Caminho(self.obra.id)
         self.insumos = Insumo.abrir(self.obra) if os.path.exists(self.caminho.insumos) else Insumo.carregar(self.obra)
         self.planilhas = Planilha.abrir(self.obra) if os.path.exists(self.caminho.planilhas) else Planilha.carregar(self.obra)
+        ItemEAP.abrir(self.obra, self.planilhas)
 
     def __repr__(self) -> str:
         return f"< Orçamento da obra: {self.obra.id} - {self.obra.nome} >" 
@@ -24,14 +24,11 @@ class Orçamento:
 
 class Planilha:
 
-    def __init__(self, obra, planilha: dict) -> None:
-        self.obra = obra
+    def __init__(self, planilha: dict) -> None:
         self.id = int(planilha['id'])
         self.descrição = planilha['descrição']
         self.status = planilha['status']
-        self.itens = {}
-        # self.itens = { key: Itens_Planilha(insumos, item) for key, item in planilha['itens'].items() } if planilha['itens'] else Planilha.pegar_itens(self.obra, insumos, self.id)
-        # Planilha.pegar_recursos(self.obra, insumos, self.id, self.itens)
+        self.eap = {}
 
     def __repr__(self) -> str:
         return f"< Planilha: {self.id} - {self.descrição} >"
@@ -39,12 +36,13 @@ class Planilha:
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
         data_dict.pop('obra')
+        data_dict.pop('eap')
         data_dict['itens'] = { key: item.to_dict() for key, item in self.itens.items() }
         return data_dict
 
     @staticmethod
     def abrir(obra) -> dict:
-        planilhas = json.load(open(f'./dados/obras/obra_{obra.id}/Insumos.json'))
+        planilhas = json.load(open(f'./dados/obras/obra_{obra.id}/Planilhas.json'))
         return { int(key): Planilha(planilha) for key, planilha in planilhas.items() }
 
     @staticmethod
@@ -55,43 +53,11 @@ class Planilha:
         planilhas_dict = { planilha['id']: Planilha(obra, Planilha.traduzir(planilha)) for planilha in planilhas }
         Planilha.salvar(obra , { key: insumo.to_dict() for key, insumo in planilhas_dict.items() })
         return planilhas_dict
-    
+
     @staticmethod
     def salvar(obra, planilhas: dict):
         with open(f'./dados/obras/obra_{obra.id}/Planilhas.json', 'w') as outfile:
             json.dump(planilhas, outfile, ensure_ascii=False, indent=4)
-    
-    @staticmethod
-    def pegar_recursos(obra, insumos: dict, id_planilha: int, itens: dict) -> None:
-
-        for value in itens.values():
-            if value.recursos:
-                return
-            break
-
-        def get_resources(id_planilha: int, itens: list, url: str, offset: int = 0) -> None:
-            b_response = requests.get(
-                url=url,
-                auth=auth,
-                params={
-                    "offset": offset,
-                    "limit": 200,
-                    "buildingUnitId": id_planilha
-                }
-            )
-            requestJson = json.loads(b_response.content.decode("utf-8"))
-            itens.extend(requestJson['results'])
-
-            if len(itens) < requestJson['resultSetMetadata']['count']:
-                get_resources(id_planilha= id_planilha, itens= itens, url= url, offset= offset + 200)
-
-        url=baseURL + f"/building-cost-estimations/{obra.id}/cost-estimate-resources"
-        recursos = []
-        get_resources(id_planilha= id_planilha, itens= recursos, url= url)
-        for r in recursos:
-            recurso = Recurso(insumos, Recurso.traduzir(r))
-            itens[recurso.wbs].recursos | {recurso.insumo.id: recurso}
-
 
     @staticmethod
     def traduzir(sheet: dict) -> dict:
@@ -99,37 +65,77 @@ class Planilha:
             'id': sheet['id'], 
             'descrição': sheet['description'],
             'status': sheet['status'],
-            'itens': {}
         }
 
+class ItemEAP:
 
-class Itens_Planilha:
-
-    def __init__(self, insumos: dict, item: dict) -> None:
+    def __init__(self, item: dict) -> None:
         self.id = int(item['id'])
-        self.wbs = item['wbs']
+        self.eap = item['eap']
         self.descrição = item['descrição']
         self.unidade = item['unidade']
         self.quantidade = item['quantidade']
         self.preçoUnitário = item['preçoUnitário']
         self.preçoTotal = item['preçoTotal']
         self.preçoPorCategoria = item['preçoPorCategoria']
-        self.recursos = { key: Recurso(insumos, recurso) for key, recurso in item['recursos'] } if item['recursos'] else {}
+        self.subitens = None
+        self.recursos =  None
 
-    
     def __repr__(self) -> str:
-        return f"< {self.wbs} - {self.descrição} >"
+        return f"< {self.eap} - {self.descrição} >"
 
     def to_dict(self):
         data_dict = self.__dict__.copy()
         data_dict['recursos'] = { key: value.to_dict() for key, value in self.recursos.items() }
         return data_dict
+
+    @staticmethod
+    def abrir(obra, planilhas, eaps = None) -> dict:
+        if not eaps:
+            eaps = json.load(open(f'./dados/obras/obra_{obra.id}/EAP.json'))
+        for key, eap in eaps.items():
+            itens = { item['eap']: ItemEAP(item) for item in eap }
+            planilhas[int(key)].eap = ItemEAP.hierarquizar(itens)
+
+    @staticmethod
+    def hierarquizar(eap_itens: dict) -> dict:
+        def organizar_eap(item_eap: ItemEAP, eaps: list, index: int = 0):
+            if not len(eaps) - 1 == index:
+                item_eap.subitens = { item.eap: item for item in eaps[index + 1] if item.eap.startswith(item_eap.eap)}
+                for item in item_eap.subitens.values():
+                    organizar_eap(item, eaps, index + 1)
+            return item_eap
+        keys = eap_itens.keys()
+        níveis = (sorted(list(set([ len(key) for key in keys ]))))
+        eaps = []
+        for nível in níveis:
+            eaps.append([ eap_item for eap_item in eap_itens.values() if len(eap_item.eap) == nível ])
+        return { item.eap: organizar_eap(item, eaps) for item in eaps[0] }
+
     
+    @staticmethod
+    def carregar(obra, planilhas: dict) -> dict:
+
+        eaps = {}
+        for planilha in planilhas:
+            url = baseURL + f"/building-cost-estimations/{obra.id}/sheets/{planilha}/items"
+            itens_wbs = []
+            get_lists_from_sienge(itens_wbs, url)
+            itens_eap = [ ItemEAP.traduzir(item) for item in itens_wbs ]
+            eaps = eaps | {planilha: itens_eap}
+        ItemEAP.salvar(obra, eaps)
+        ItemEAP.abrir(obra, planilhas, eaps)
+
+    @staticmethod
+    def salvar(obra, itens) -> None:
+        with open(f'./dados/obras/obra_{obra.id}/EAP.json', 'w') as outfile:
+            json.dump(itens, outfile, ensure_ascii=False, indent=4)
+
     @staticmethod
     def traduzir(item: dict) -> dict:
         return {
             'id': item['id'],
-            'wbs': item['wbsCode'],
+            'eap': item['wbsCode'],
             'descrição': item['description'],
             'unidade': item['unitOfMeasure'],
             'quantidade': item['quantity'],

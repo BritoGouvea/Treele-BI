@@ -44,16 +44,6 @@ class Obra:
         if not diretorioExiste:
             os.mkdir(diretorioObra.raiz)
         return diretorioObra
-
-def traduzir(enterprise):
-    return {
-        'id': enterprise['id'],
-        'nome': enterprise['name'],
-        'cnpj': enterprise['cnpj'],
-        'endereço': enterprise['adress'],
-        'data': enterprise['creationDate'],
-        'coordenadas': None
-    }
     
 class Coordenadas:
 
@@ -97,3 +87,13 @@ def carregar() -> dict:
 def salvar(obras: dict):
     with open(f'./dados/bases/Obras.json', 'w') as outfile:
         json.dump(obras, outfile, ensure_ascii=False, indent=4)
+
+def traduzir(enterprise):
+    return {
+        'id': enterprise['id'],
+        'nome': enterprise['name'],
+        'cnpj': enterprise['cnpj'],
+        'endereço': enterprise['adress'],
+        'data': enterprise['creationDate'],
+        'coordenadas': None
+    }

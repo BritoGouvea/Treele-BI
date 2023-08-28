@@ -58,7 +58,7 @@ class Insumo:
     @staticmethod
     def abrir(obra):
         lista_insumos = json.load(open(f'./dados/obras/obra_{obra.id}/Insumos.json'))
-        Insumo.insumos = { int(key): Insumo(insumo) for key, insumo in lista_insumos.items() }
+        return { int(key): Insumo(insumo) for key, insumo in lista_insumos.items() }
 
     @staticmethod
     def carregar(obra) -> dict:
