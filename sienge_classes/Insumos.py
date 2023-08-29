@@ -62,11 +62,11 @@ class Insumo:
 
     @staticmethod
     def carregar(obra) -> dict:
-        url = baseURL + f"/building-cost-estimations/{id}/resources"
+        url = baseURL + f"/building-cost-estimations/{obra.id}/resources"
         insumos = []
         get_lists_from_sienge(insumos, url)
         insumosDaObra = { insumo['id']: Insumo(Insumo.traduzir(insumo)) for insumo in insumos }
-        Insumo.salvar_insumos(obra.id, { key: insumo.to_dict() for key, insumo in insumosDaObra.items() })
+        Insumo.salvar_insumos(obra, { key: insumo.to_dict() for key, insumo in insumosDaObra.items() })
         return insumosDaObra
 
     @staticmethod

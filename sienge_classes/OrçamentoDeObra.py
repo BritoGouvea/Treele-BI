@@ -1,7 +1,7 @@
 import json
 import os
 from sienge_classes import Caminho, get_lists_from_sienge, baseURL
-from sienge_classes.Insumos import Insumo
+from sienge_classes.Insumos import Insumo, InsumoGeral
 
 class Orçamento:
 
@@ -10,7 +10,8 @@ class Orçamento:
         self.caminho = Caminho(self.obra.id)
         self.insumos = Insumo.abrir(self.obra) if os.path.exists(self.caminho.insumos) else Insumo.carregar(self.obra)
         self.planilhas = Planilha.abrir(self.obra) if os.path.exists(self.caminho.planilhas) else Planilha.carregar(self.obra)
-        ItemEAP.abrir(self.obra, self.planilhas)
+        self.itens_eap = ItemEAP.abrir(self.obra, self.planilhas) if os.path.exists(self.caminho.eap) else ItemEAP.carregar(self.obra, self.planilhas)
+        self.recursos = Recurso.abrir(self.obra, self.insumos, self.itens_eap) if os.path.exists(self.caminho.recursos) else Recurso.carregar(self.obra, self.insumos, self.itens_eap)
 
     def __repr__(self) -> str:
         return f"< Orçamento da obra: {self.obra.id} - {self.obra.nome} >" 
@@ -35,9 +36,7 @@ class Planilha:
 
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
-        data_dict.pop('obra')
         data_dict.pop('eap')
-        data_dict['itens'] = { key: item.to_dict() for key, item in self.itens.items() }
         return data_dict
 
     @staticmethod
@@ -92,10 +91,13 @@ class ItemEAP:
     @staticmethod
     def abrir(obra, planilhas, eaps = None) -> dict:
         if not eaps:
-            eaps = json.load(open(f'./dados/obras/obra_{obra.id}/EAP.json'))
-        for key, eap in eaps.items():
-            itens = { item['eap']: ItemEAP(item) for item in eap }
+            eaps_dict = json.load(open(f'./dados/obras/obra_{obra.id}/EAP.json'))
+        todos_itens = {}
+        for key, eap in eaps_dict.items():
+            itens = { f"{key}.{item['eap']}": ItemEAP(item) for item in eap }
+            todos_itens = todos_itens | itens
             planilhas[int(key)].eap = ItemEAP.hierarquizar(itens)
+        return todos_itens
 
     @staticmethod
     def hierarquizar(eap_itens: dict) -> dict:
@@ -112,7 +114,6 @@ class ItemEAP:
             eaps.append([ eap_item for eap_item in eap_itens.values() if len(eap_item.eap) == nível ])
         return { item.eap: organizar_eap(item, eaps) for item in eaps[0] }
 
-    
     @staticmethod
     def carregar(obra, planilhas: dict) -> dict:
 
@@ -142,32 +143,67 @@ class ItemEAP:
             'preçoUnitário': item['unitPrice'],
             'preçoTotal': item['totalPrice'],
             'preçoPorCategoria': [{"categoria": preço['category'], "preçoUnitário": preço['unitPrice'], "preçoTotal": preço['totalPrice']} for preço in item['pricesByCategory']],
-            'recursos': {}
         }
     
 class Recurso:
 
     def __init__(self, insumos: dict, recurso: dict) -> None:
-        self.planilha = recurso['planilha']
-        self.wbs = recurso['wbs']
+        self.planilha = int(recurso['planilha'])
+        self.eap = recurso['eap']
         self.itemId = recurso['itemId']
-        self.insumo = insumos[recurso['insumo']]
+        try:
+            insumo = insumos[recurso['insumo']]
+        except:
+            insumos = InsumoGeral.abrir()
+            insumo = insumos[recurso['insumo']]
+        self.insumo = insumo
         self.quantidade = recurso['quantidade']
         self.preçoUnitário = recurso['preçoUnitário']
         self.preçoTotal = recurso['preçoTotal']
         self.data = recurso['data']
 
+    def __repr__(self) -> str:
+        return f"<{self.insumo.id} - {self.insumo.descrição}: {self.quantidade} {self.insumo.unidade}"
+
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
-        data_dict['wbs'] = self.wbs.id
         data_dict['planilha'] = self.planilha
         data_dict['insumo'] = self.insumo.id
+        return data_dict
+
+    @staticmethod
+    def abrir(obra, insumos: dict, itens_eap: dict, recursos: dict = None) -> dict:
+        if not recursos:
+            recursos = json.load(open(f'./dados/obras/obra_{obra.id}/Recursos.json'))
+            recursos = { key: Recurso(insumos, recurso) for key, recurso in recursos.items() }
+        for key, recurso in recursos.items():
+            item_eap = itens_eap[f'{recurso.planilha}.{recurso.eap}']
+            if not item_eap.recursos:
+                item_eap.recursos = {key: recurso}
+            else:
+                item_eap.recursos = item_eap.recursos | {key: recurso}
+        return recursos
+
+    @staticmethod
+    def carregar(obra, insumos: dict, itens_eap: dict):
+        url = baseURL + f'/building-cost-estimations/{obra.id}/cost-estimate-resources'
+        recursos = []
+        get_lists_from_sienge(recursos, url)
+        recursos = { f"{recurso['buildingUnitId']}.{recurso['sheetItemWbsCode']}.{recurso['id']}": Recurso(insumos, Recurso.traduzir(recurso)) for recurso in recursos }
+        recursos_dict = { key: recurso.to_dict() for key, recurso in recursos.items() }
+        Recurso.salvar(obra, recursos_dict)
+        Recurso.abrir(obra, insumos, itens_eap, recursos = recursos_dict)
+
+    @staticmethod
+    def salvar(obra, recursos):
+        with open(f'./dados/obras/obra_{obra.id}/Recursos.json', 'w') as outfile:
+            json.dump(recursos, outfile, ensure_ascii=False, indent=4)
 
     @staticmethod
     def traduzir(resource) -> dict:
         return {
             'planilha': resource['buildingUnitId'],
-            'wbs': resource['sheetItemWbsCode'],
+            'eap': resource['sheetItemWbsCode'],
             'itemId': resource['sheetItemId'],
             'insumo': resource['id'],
             'quantidade': resource['quantity'],

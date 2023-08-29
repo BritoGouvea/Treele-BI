@@ -16,13 +16,13 @@ class Caminho:
         self.insumos = self.raiz + f'/Insumos.json'
         self.planilhas = self.raiz + f'/Planilhas.json'
         self.eap = self.raiz + f'/EAP.json'
-        self.recursos = self.raiz + f'Recursos.json'
+        self.recursos = self.raiz + f'/Recursos.json'
 
 def get_lists_from_sienge(items: list, url: str, offset: int = 0) -> list:
     b_response = requests.get(
         url=url,
         auth=auth,
-        params={
+        params= {
             "offset": offset,
             "limit": 200
         }
