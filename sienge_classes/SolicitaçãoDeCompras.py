@@ -1,17 +1,14 @@
 from datetime import datetime
 import json
 import requests
-from sienge_classes import baseURL, auth
-from sienge_classes.Obras import Obra
+from sienge_classes import baseURL, get_lists_from_sienge, get_item_from_sienge
 from sienge_classes.Insumos import Insumo
 
 class SolicitaçãoDeCompras:
 
-    solicitações = None
-
-    def __init__(self, solicitação: dict) -> None:
+    def __init__(self, solicitação: dict, obras: dict) -> None:
         self.id = solicitação['id']
-        self.obra = Obra.obras[solicitação['obra']]
+        self.obra = obras[solicitação['obra']]
         self.data = datetime.fromisoformat(solicitação['data'])
         self.status = solicitação['status']
         self.criado_por = solicitação['criado_por']
@@ -23,32 +20,48 @@ class SolicitaçãoDeCompras:
         data_dict['data'] = self.data.strftime('%Y-%m-%d')
         data_dict.pop('itens')
         return data_dict
-    
-    @staticmethod
-    def criar():
-
-        def cria_e_anexa(solicitação_dict: dict) -> SolicitaçãoDeCompras:
-            solicitação = SolicitaçãoDeCompras(solicitação_dict)
-            solicitação.obra.solicitações.append(solicitação)
-            return solicitação
-        
-        lista_solicitações = json.load(open('./treele_dados/bases/SolicitaçõesDeCompras.json'))
-        SolicitaçãoDeCompras.solicitações = { int(key): cria_e_anexa(solicitação) for key, solicitação in lista_solicitações.items() }
 
     @staticmethod
-    def salvar():
-        lista_solicitações = { key: solicitação.to_dict() for key, solicitação in SolicitaçãoDeCompras.solicitações.items() }
-        with open('./treele_dados/bases/SolicitaçõesDeCompras.json', 'w') as outfile:
-            json.dump(lista_solicitações, outfile, ensure_ascii=False, indent=4)
+    def abrir(solicitações: dict = None) -> dict:
+        if not solicitações:
+            solicitações = json.load(open('./dados/bases/SolicitaçõesDeCompras.json'))
+        return { int(key): SolicitaçãoDeCompras(solicitação) for key, solicitação in solicitações.items() }
+
+    @staticmethod
+    def carregar(id: int):
+        url = baseURL + f"/purchase-requests/{id}"
+        solicitação = SolicitaçãoDeCompras.traduzir(get_item_from_sienge(url))
+        return { solicitação['id']: SolicitaçãoDeCompras(solicitação) }
+
+    @staticmethod
+    def salvar(solicitações: dict) -> None:
+        with open('./dados/bases/SolicitaçõesDeCompras.json', 'w') as outfile:
+            json.dump(solicitações, outfile, ensure_ascii=False, indent=4)
+
+    @staticmethod
+    def traduzir(solicitação: dict) -> dict:
+        return {
+            'id': solicitação['id'],
+            'obra': solicitação['buildingId'],
+            'data': solicitação['requestDate'],
+            'status': solicitação['status'],
+            'criado_por': solicitação['createdBy']
+        }
 
 class Item_SolicitaçãoDeCompras:
 
-    itens = None
-
-    def __init__(self, item: dict) -> None:
-        self.solicitação_de_compra = SolicitaçãoDeCompras.solicitações[item['solicitação_de_compra']]
+    def __init__(self, item: dict, solicitações: dict, insumos: dict) -> None:
+        try:
+            solicitação = solicitações[item['solicitação_de_compra']]
+        except:
+            try:
+                solicitação = SolicitaçãoDeCompras.carregar(item['solicitação_de_compra'])
+            except:
+                solicitação = None
+                print('Solicitação de compra não encontrada no sienge')
+        self.solicitação_de_compra = solicitação
         self.número = item['número']
-        self.produto = Insumo.insumos[item['produto']]
+        self.produto = insumos[item['produto']]
         self.opção = item['opção']
         self.marca = item['marca']
         self.quantidade = item['quantidade']
@@ -59,7 +72,7 @@ class Item_SolicitaçãoDeCompras:
             data = None
         self.data_autorização = data
         self.apropriações = item['apropriações']
-    
+
     def to_dict(self) -> dict:
         data_dict = self.__dict__.copy()
         data_dict['solicitação_de_compra'] = self.solicitação_de_compra.id
@@ -67,12 +80,11 @@ class Item_SolicitaçãoDeCompras:
         if self.data_autorização:
             data_dict['data_autorização'] = self.data_autorização.strftime('%Y-%m-%d')
         return data_dict
-    
+
     def get_building_apropriation(self) -> None:
         
         b_response = requests.get(
             url=baseURL + f"/purchase-requests/{self.solicitação_de_compra.id}/items/{self.número}/buildings-appropriations",
-            auth=auth,
             params={
                 "offset": 0,
                 "limit": 200

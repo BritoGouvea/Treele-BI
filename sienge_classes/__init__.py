@@ -18,18 +18,31 @@ class Caminho:
         self.eap = self.raiz + f'/EAP.json'
         self.recursos = self.raiz + f'/Recursos.json'
 
-def get_lists_from_sienge(items: list, url: str, offset: int = 0) -> list:
-    b_response = requests.get(
-        url=url,
-        auth=auth,
-        params= {
+def get_lists_from_sienge(items: list, url: str, offset: int = 0, params: dict = None) -> list:
+    if not params:
+        params = {
             "offset": offset,
             "limit": 200
         }
+    else:
+        params = {"offset": offset, "limit": 200} | params
+    b_response = requests.get(
+        url=url,
+        auth=auth,
+        params= params
     )
     requestJson = json.loads(b_response.content.decode("utf-8"))
-    print(requestJson)
-    items.extend(requestJson['results'])
+    try:
+        results = requestJson['results']
+        items.extend(results)
+        if len(items) < requestJson['resultSetMetadata']['count']:
+            get_lists_from_sienge(items, url, offset + 200)
+    except:
+        print(requestJson)
 
-    if len(items) < requestJson['resultSetMetadata']['count']:
-        get_lists_from_sienge(items, url, offset + 200)
+def get_item_from_sienge(url: str) -> dict:
+    b_response = requests.get(
+        url=url,
+        auth=auth,
+    )
+    return json.loads(b_response.content.decode("utf-8"))

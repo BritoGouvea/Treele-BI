@@ -49,7 +49,7 @@ class Planilha:
         url = baseURL + f"/building-cost-estimations/{obra.id}/sheets"
         planilhas = []
         get_lists_from_sienge(planilhas, url)
-        planilhas_dict = { planilha['id']: Planilha(obra, Planilha.traduzir(planilha)) for planilha in planilhas }
+        planilhas_dict = { planilha['id']: Planilha(Planilha.traduzir(planilha)) for planilha in planilhas }
         Planilha.salvar(obra , { key: insumo.to_dict() for key, insumo in planilhas_dict.items() })
         return planilhas_dict
 
@@ -91,9 +91,9 @@ class ItemEAP:
     @staticmethod
     def abrir(obra, planilhas, eaps = None) -> dict:
         if not eaps:
-            eaps_dict = json.load(open(f'./dados/obras/obra_{obra.id}/EAP.json'))
+            eaps = json.load(open(f'./dados/obras/obra_{obra.id}/EAP.json'))
         todos_itens = {}
-        for key, eap in eaps_dict.items():
+        for key, eap in eaps.items():
             itens = { f"{key}.{item['eap']}": ItemEAP(item) for item in eap }
             todos_itens = todos_itens | itens
             planilhas[int(key)].eap = ItemEAP.hierarquizar(itens)
@@ -114,12 +114,14 @@ class ItemEAP:
         eaps = []
         for nível in níveis:
             eaps.append([ {eap_key: eap_item} for eap_key, eap_item in eap_itens.items() if len(eap_key.split('.')) == nível ])
-        organizar(eaps)
-        return { key: item for key, item in join_dicts_list(eaps[0]).items() }
+        if eaps:
+            organizar(eaps)
+            return { key: item for key, item in join_dicts_list(eaps[0]).items() }
+        else:
+            return None
 
     @staticmethod
     def carregar(obra, planilhas: dict) -> dict:
-
         eaps = {}
         for planilha in planilhas:
             url = baseURL + f"/building-cost-estimations/{obra.id}/sheets/{planilha}/items"
@@ -128,8 +130,8 @@ class ItemEAP:
             itens_eap = [ ItemEAP.traduzir(item) for item in itens_wbs ]
             eaps = eaps | {planilha: itens_eap}
         ItemEAP.salvar(obra, eaps)
-        ItemEAP.abrir(obra, planilhas, eaps)
-
+        return ItemEAP.abrir(obra, planilhas, eaps)
+        
     @staticmethod
     def salvar(obra, itens) -> None:
         with open(f'./dados/obras/obra_{obra.id}/EAP.json', 'w') as outfile:
@@ -195,7 +197,7 @@ class Recurso:
         recursos = { f"{recurso['buildingUnitId']}.{recurso['sheetItemWbsCode']}.{recurso['id']}": Recurso(insumos, Recurso.traduzir(recurso)) for recurso in recursos }
         recursos_dict = { key: recurso.to_dict() for key, recurso in recursos.items() }
         Recurso.salvar(obra, recursos_dict)
-        Recurso.abrir(obra, insumos, itens_eap, recursos = recursos_dict)
+        Recurso.abrir(obra, insumos, itens_eap, recursos = recursos)
 
     @staticmethod
     def salvar(obra, recursos):

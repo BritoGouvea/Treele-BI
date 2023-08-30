@@ -11,6 +11,12 @@ if not os.path.exists(bases):
 
 caminho_obras = os.path.join(bases, 'Obras.json')
 obras = Obras.abrir() if os.path.exists(caminho_obras) else Obras.carregar()
+for obra in obras.values():
+    print(obra)
+    obra.criar_orçamento()
 
 caminho_insumos = os.path.join(bases, 'Insumos.json')
 insumos = InsumoGeral.abrir() if os.path.exists(caminho_insumos) else InsumoGeral.carregar()
+
+caminho_solicitações = os.path.join(bases + 'SolicitaçõesDeCompras.json')
+solicitações = 1
