@@ -101,18 +101,21 @@ class ItemEAP:
 
     @staticmethod
     def hierarquizar(eap_itens: dict) -> dict:
-        def organizar_eap(item_eap: ItemEAP, eaps: list, index: int = 0):
-            if not len(eaps) - 1 == index:
-                item_eap.subitens = { item.eap: item for item in eaps[index + 1] if item.eap.startswith(item_eap.eap)}
-                for item in item_eap.subitens.values():
-                    organizar_eap(item, eaps, index + 1)
-            return item_eap
-        keys = eap_itens.keys()
+        def join_dicts_list(dict_list):
+            return dict((key, value) for dictionary in dict_list for key, value in dictionary.items())
+        def organizar(eaps: list, index: int = 0) -> None:
+            if len(eaps) != index + 1:
+                for key, eap in join_dicts_list(eaps[index]).items():
+                    sub_dict = join_dicts_list(eaps[index + 1])
+                    eap.subitens = { subitem_key: subitem for subitem_key, subitem in sub_dict.items() if subitem_key.startswith(key)}
+                    organizar(eaps, index + 1)
+        keys = [ key.split('.') for key in eap_itens.keys() ]
         níveis = (sorted(list(set([ len(key) for key in keys ]))))
         eaps = []
         for nível in níveis:
-            eaps.append([ eap_item for eap_item in eap_itens.values() if len(eap_item.eap) == nível ])
-        return { item.eap: organizar_eap(item, eaps) for item in eaps[0] }
+            eaps.append([ {eap_key: eap_item} for eap_key, eap_item in eap_itens.items() if len(eap_key.split('.')) == nível ])
+        organizar(eaps)
+        return { key: item for key, item in join_dicts_list(eaps[0]).items() }
 
     @staticmethod
     def carregar(obra, planilhas: dict) -> dict:

@@ -28,7 +28,6 @@ tjm = obras[8]
 tjm.criar_orçamento()
 
 orçamento = tjm.orçamento
-planilha_obra = tjm.orçamento.planilhas[4].eap
+planilha_obra = tjm.orçamento.planilhas[4]
+itens_planilha_obra = planilha_obra.eap['4.01']
 itens_eap = tjm.orçamento.itens_eap
-
-orçamento.recursos
