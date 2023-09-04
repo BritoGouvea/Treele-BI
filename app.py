@@ -2,7 +2,7 @@
 # from dash import html, dcc
 # from dash.dependencies import Input, Output
 
-from dados import obras
+from dados import obras, insumos, solicitações, última_data
 
 # app = dash.Dash(__name__)
 
@@ -14,13 +14,3 @@ from dados import obras
 
 # if __name__ == '__main__':
 #     app.run_server(debug=True)
-
-# orçamento_tjm = Orçamento({
-#     'obra': 8,
-#     'insumos': [],
-#     'planilhas': []
-# })
-
-# orçamento_tjm.salvar()
-
-Colinas.orçamento.planilhas[4].eap['4.01'].subitens['4.01.003'].subitens

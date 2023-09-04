@@ -119,14 +119,16 @@ class InsumoGeral(Insumo):
 
     @staticmethod
     def carregar() -> dict:
-        url = baseURL + f"/enterprises"
+        url = baseURL + f"/cost-databases/2/resources"
         insumos = []
         get_lists_from_sienge(insumos, url)
         insumos_dict = { insumo['id']: InsumoGeral(InsumoGeral.traduzir(insumo)) for insumo in insumos }
+        get_lists_from_sienge(insumos, url, params= { 'status': 'INACTIVE' })
         InsumoGeral.salvar(insumos_dict)
         return insumos_dict
     
     @staticmethod
-    def salvar(lista_insumos: dict):
+    def salvar(insumos: dict):
+        lista_insumos = { key: insumo.to_dict() for key, insumo in insumos.items() }
         with open('./dados/bases/Insumos.json', 'w') as outfile:
             json.dump(lista_insumos, outfile, ensure_ascii=False, indent=4)
